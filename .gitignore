@@ -1,62 +1,45 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# ------------------------------------------------------------
+# MiraCursor
+#   ビルドに必要なファイル（macos/ と windows/ のソース、スクリプト、Taskfile.yml、
+#   project.ini、アイコンなど）は無視しないこと。
+# ------------------------------------------------------------
 
-## User settings
+# ---- ビルドの出力（task build / task build-release） ----
+/dist/
+
+# ---- macOS（SwiftPM）のビルド・キャッシュ ----
+/macos/.build/
+/macos/.swiftpm/
+*.dSYM
+*.dSYM.zip
 xcuserdata/
 
-## Obj-C/Swift specific
-*.hmap
+# ---- Windows（.NET / WiX）のビルド・キャッシュ ----
+/windows/**/bin/
+/windows/**/obj/
+*.binlog
+*.user
+*.suo
+.vs/
 
-## App packaging
-*.ipa
-*.dSYM.zip
-*.dSYM
+# ---- Task（go-task）のキャッシュ ----
+/.task/
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+# ---- ローカル設定・秘密情報 ----
+# Taskfile.yml が読み込む .env（署名用の証明書名など、各自の環境ごとの設定）
+.env
+# コード署名用の証明書・秘密鍵
+*.p12
+*.pfx
+*.pem
+*.cer
+*.key
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
+# ---- エディタ / IDE ----
+.idea/
+.vscode/
 
-.build/
-
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
-
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build/
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+# ---- OS が作るファイル ----
+.DS_Store
+Thumbs.db
+Desktop.ini
