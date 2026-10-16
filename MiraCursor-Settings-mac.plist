@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.6</string>
+	<string>0.0.7</string>
 	<key>createdAt</key>
-	<date>2026-10-14T09:41:05Z</date>
+	<date>2026-10-16T04:07:09Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -30,18 +30,28 @@
 		<string>momentary</string>
 		<key>autoUpdate</key>
 		<true/>
+		<key>capture.backgroundColor</key>
+		<string>#007AFF</string>
 		<key>capture.continuous</key>
-		<true/>
+		<false/>
 		<key>capture.cursorSize</key>
 		<real>48</real>
 		<key>capture.delay</key>
 		<real>0.0</real>
 		<key>capture.destination</key>
 		<string>imageEditor</string>
+		<key>capture.hidesDesktopIcons</key>
+		<false/>
+		<key>capture.hidesWallpaper</key>
+		<true/>
 		<key>capture.includesCursor</key>
 		<false/>
+		<key>capture.includesDesktopIcons</key>
+		<true/>
 		<key>capture.includesShadow</key>
 		<false/>
+		<key>capture.includesWallpaper</key>
+		<true/>
 		<key>capture.meetingIcons.teams</key>
 		<false/>
 		<key>capture.meetingIcons.webex</key>
@@ -60,8 +70,6 @@
 		<true/>
 		<key>capture.sound</key>
 		<true/>
-		<key>capture.textBlur.compares</key>
-		<false/>
 		<key>capture.textBlur.enabled</key>
 		<false/>
 		<key>capture.textBlur.granularity</key>
@@ -86,18 +94,24 @@
 		<real>240</real>
 		<key>capture.toolbarPosition</key>
 		<string>bottom</string>
+		<key>capture.toolbarSize</key>
+		<string>medium</string>
 		<key>captureShortcut.activeWindow</key>
 		<string></string>
 		<key>captureShortcut.mode</key>
-		<string>7:1179648:X</string>
+		<string>7:655360:X</string>
 		<key>clipboard.historyAction</key>
 		<string>clipboard</string>
 		<key>clipboard.historyEnabled</key>
-		<true/>
+		<false/>
 		<key>clipboard.historyLimit</key>
 		<real>20</real>
 		<key>clipboard.historyOrder</key>
 		<string>newestFirst</string>
+		<key>clipboard.historyRecordsImages</key>
+		<true/>
+		<key>clipboard.historyRecordsText</key>
+		<true/>
 		<key>clipboard.historyShortcut</key>
 		<string></string>
 		<key>clipboard.imageAction</key>
@@ -137,12 +151,12 @@
 		<true/>
 		<key>editor.cameraID</key>
 		<string>0x1100002f9d1101</string>
+		<key>editor.closesAfterCopy</key>
+		<false/>
 		<key>editor.closesWithEscape</key>
 		<true/>
 		<key>editor.confirmsClose</key>
 		<false/>
-		<key>editor.fitsWindow</key>
-		<true/>
 		<key>editor.gridColor</key>
 		<string>#808080</string>
 		<key>editor.gridLineStyle</key>
@@ -151,6 +165,12 @@
 		<real>0.80000000000000004</real>
 		<key>editor.gridSpacing</key>
 		<real>50</real>
+		<key>editor.openShortcut</key>
+		<string></string>
+		<key>editor.panelSide</key>
+		<string>left</string>
+		<key>editor.propertyStyle</key>
+		<string>sidebar</string>
 		<key>editor.selection.animated</key>
 		<true/>
 		<key>editor.selection.color</key>
@@ -159,10 +179,35 @@
 		<real>70</real>
 		<key>editor.selection.pattern</key>
 		<string>diagonalGrid</string>
+		<key>editor.sharedPresets</key>
+		<data>
+		W3siY29sb3IiOiIjRkYzQjMwIiwib3BhY2l0eSI6MSwid2lkdGgiOjYsInNo
+		YWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRsaW5lV2lk
+		dGgiOjN9LHsiY29sb3IiOiIjRkY5NTAwIiwib3BhY2l0eSI6MSwid2lkdGgi
+		OjYsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRs
+		aW5lV2lkdGgiOjN9LHsiY29sb3IiOiIjRkZDQzAwIiwib3BhY2l0eSI6MSwi
+		d2lkdGgiOjYsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0cnVl
+		LCJvdXRsaW5lV2lkdGgiOjN9LHsiY29sb3IiOiIjMzRDNzU5Iiwib3BhY2l0
+		eSI6MSwid2lkdGgiOjYsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVk
+		Ijp0cnVlLCJvdXRsaW5lV2lkdGgiOjN9LHsiY29sb3IiOiIjMDA3QUZGIiwi
+		b3BhY2l0eSI6MSwid2lkdGgiOjYsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVF
+		bmFibGVkIjp0cnVlLCJvdXRsaW5lV2lkdGgiOjN9LHsiY29sb3IiOiIjQUY1
+		MkRFIiwib3BhY2l0eSI6MSwid2lkdGgiOjYsInNoYWRvdyI6ZmFsc2UsIm91
+		dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRsaW5lV2lkdGgiOjN9LHsiY29sb3Ii
+		OiIjRkZGRkZGIiwib3BhY2l0eSI6MSwid2lkdGgiOjYsInNoYWRvdyI6ZmFs
+		c2UsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRsaW5lV2lkdGgiOjN9LHsi
+		Y29sb3IiOiIjMDAwMDAwIiwib3BhY2l0eSI6MSwid2lkdGgiOjYsInNoYWRv
+		dyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRsaW5lV2lkdGgi
+		OjN9XQ==
+		</data>
 		<key>editor.showsGrid</key>
 		<false/>
 		<key>editor.textExtract.action</key>
-		<string>dialog</string>
+		<string>clipboard</string>
+		<key>editor.textExtract.excludePatterns</key>
+		<string></string>
+		<key>editor.textExtract.excludeTarget</key>
+		<string>line</string>
 		<key>editor.textExtract.font</key>
 		<string></string>
 		<key>editor.textExtract.fontSize</key>
@@ -173,6 +218,10 @@
 		<string>medium</string>
 		<key>editor.toolbarLayout</key>
 		<string>verticalAndHorizontal</string>
+		<key>editor.toolbarShowsCategoryNames</key>
+		<true/>
+		<key>editor.toolbarShowsToolNames</key>
+		<true/>
 		<key>editor.transparencyColor</key>
 		<string>#FFFFFF</string>
 		<key>editor.transparencyColorEnabled</key>
@@ -232,27 +281,49 @@
 		<key>keyMonitor.width</key>
 		<real>480</real>
 		<key>light.style</key>
-		<string>spotlight</string>
+		<string>highlight</string>
 		<key>menuShortcut</key>
-		<string>46:786432:M</string>
+		<string>46:655360:M</string>
 		<key>micLevel.ai.claude.enabled</key>
 		<false/>
 		<key>micLevel.ai.codex.enabled</key>
+		<false/>
+		<key>micLevel.ai.monthCostThreshold</key>
+		<real>100000</real>
+		<key>micLevel.ai.showsCost</key>
+		<false/>
+		<key>micLevel.ai.showsTokens</key>
+		<true/>
+		<key>micLevel.ai.todayCostThreshold</key>
+		<real>10000</real>
+		<key>micLevel.autoReposition</key>
+		<true/>
+		<key>micLevel.bulkSize</key>
+		<real>80</real>
+		<key>micLevel.calendar.enabled</key>
+		<false/>
+		<key>micLevel.calendar.range</key>
+		<string>twoWeeks</string>
+		<key>micLevel.calendar.title</key>
+		<string>both</string>
+		<key>micLevel.calendar.weekdays</key>
 		<false/>
 		<key>micLevel.cpu.enabled</key>
 		<false/>
 		<key>micLevel.cpu.style</key>
 		<string>average</string>
+		<key>micLevel.direction</key>
+		<string>horizontal</string>
 		<key>micLevel.enabled</key>
-		<false/>
+		<true/>
 		<key>micLevel.memory.enabled</key>
 		<false/>
 		<key>micLevel.mic.enabled</key>
-		<true/>
+		<false/>
 		<key>micLevel.monitor</key>
 		<integer>0</integer>
 		<key>micLevel.order</key>
-		<string>claude,codex,cpu,memory,mic</string>
+		<string>claude,codex,calendar,cpu,memory,mic</string>
 		<key>micLevel.position</key>
 		<string>bottomRight</string>
 		<key>micLevel.sensitivity</key>
@@ -260,7 +331,19 @@
 		<key>micLevel.shortcut</key>
 		<string></string>
 		<key>micLevel.size</key>
-		<real>56</real>
+		<real>80</real>
+		<key>micLevel.size.calendar</key>
+		<real>80</real>
+		<key>micLevel.size.claude</key>
+		<real>80</real>
+		<key>micLevel.size.codex</key>
+		<real>80</real>
+		<key>micLevel.size.cpu</key>
+		<real>80</real>
+		<key>micLevel.size.memory</key>
+		<real>80</real>
+		<key>micLevel.size.mic</key>
+		<real>80</real>
 		<key>mouseCursor.animates</key>
 		<false/>
 		<key>mouseCursor.animation</key>
@@ -276,7 +359,7 @@
 		<key>mouseCursor.custom3.hotSpot</key>
 		<string>topLeft</string>
 		<key>mouseCursor.image</key>
-		<string>arrow</string>
+		<string>highlight</string>
 		<key>mouseCursor.rippleColor</key>
 		<string>#FFCC00</string>
 		<key>mouseCursor.rippleDuration</key>
@@ -297,6 +380,26 @@
 		<real>8</real>
 		<key>mouseCursor.trailDuration</key>
 		<real>0.5</real>
+		<key>mouseCursor.zoomCrosshairColor</key>
+		<string>#808080</string>
+		<key>mouseCursor.zoomCrosshairOpacity</key>
+		<real>0.80000000000000004</real>
+		<key>mouseCursor.zoomCrosshairStyle</key>
+		<string>dashed</string>
+		<key>mouseCursor.zoomCrosshairWidth</key>
+		<real>1</real>
+		<key>mouseCursor.zoomFactor</key>
+		<real>2</real>
+		<key>mouseCursor.zoomShape</key>
+		<string>square</string>
+		<key>mouseCursor.zoomSize</key>
+		<real>160</real>
+		<key>openShortcut.imageDirectory</key>
+		<string></string>
+		<key>openShortcut.settings</key>
+		<string></string>
+		<key>openShortcut.textDirectory</key>
+		<string></string>
 		<key>pen.capture.delay</key>
 		<real>0.0</real>
 		<key>pen.capture.destination</key>
@@ -306,9 +409,7 @@
 		<key>pen.capture.includesCursor</key>
 		<false/>
 		<key>pen.capture.key</key>
-		<string>leftControl</string>
-		<key>pen.capture.range</key>
-		<string>activeDisplay</string>
+		<string>rightShift</string>
 		<key>pen.capture.sound</key>
 		<true/>
 		<key>pen.capture.thumbnailPosition</key>
@@ -329,6 +430,12 @@
 		<string>solid</string>
 		<key>pen.leftOpacity</key>
 		<real>0.34999999999999998</real>
+		<key>pen.leftText</key>
+		<false/>
+		<key>pen.leftTextFont</key>
+		<string></string>
+		<key>pen.leftTextSize</key>
+		<real>32</real>
 		<key>pen.leftWidth</key>
 		<real>8</real>
 		<key>pen.rightColor</key>
@@ -341,6 +448,12 @@
 		<string>solid</string>
 		<key>pen.rightOpacity</key>
 		<real>0.34999999999999998</real>
+		<key>pen.rightText</key>
+		<true/>
+		<key>pen.rightTextFont</key>
+		<string></string>
+		<key>pen.rightTextSize</key>
+		<real>32</real>
 		<key>pen.rightWidth</key>
 		<real>8</real>
 		<key>pen.showsCursorIcon</key>
@@ -349,8 +462,6 @@
 		<string>none</string>
 		<key>showsReleaseNotes</key>
 		<true/>
-		<key>showsStartNotice</key>
-		<false/>
 		<key>snippets.infoWindow.enabled</key>
 		<true/>
 		<key>snippets.infoWindow.font</key>
@@ -63673,8 +63784,16 @@
 		<string></string>
 		<key>snippets.showsThumbnail</key>
 		<true/>
+		<key>spotlight.capture.delay</key>
+		<real>0.0</real>
+		<key>spotlight.capture.enabled</key>
+		<false/>
+		<key>spotlight.capture.target</key>
+		<string>desktop</string>
 		<key>spotlight.clickAction</key>
 		<string>keepLit</string>
+		<key>spotlight.clickBehavior</key>
+		<string>none</string>
 		<key>spotlight.color</key>
 		<string>#000000</string>
 		<key>spotlight.dimOpacity</key>
@@ -63687,27 +63806,11 @@
 		<array>
 			<dict>
 				<key>key</key>
-				<string>leftOption+leftShift</string>
+				<string>leftControl+leftShift</string>
 				<key>mode</key>
 				<string>pen</string>
 				<key>style</key>
-				<string>momentary</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>rightOption</string>
-				<key>mode</key>
-				<string>capture</string>
-				<key>style</key>
-				<string>momentary</string>
-			</dict>
-			<dict>
-				<key>key</key>
-				<string>rightControl</string>
-				<key>mode</key>
-				<string>colorPicker</string>
-				<key>style</key>
-				<string>momentary</string>
+				<string>toggle</string>
 			</dict>
 		</array>
 		<key>triggerKey.colorPicker</key>
@@ -63722,6 +63825,23 @@
 		<string>leftOption+leftShift</string>
 		<key>triggerKey.spotlight</key>
 		<string>none</string>
+		<key>windowSize.autoReposition</key>
+		<true/>
+		<key>windowSize.includesFrame</key>
+		<true/>
+		<key>windowSize.presets</key>
+		<array>
+			<string>1920x1080</string>
+			<string>1600x1080</string>
+			<string>1440x1080</string>
+			<string>1280x1024</string>
+			<string>1280x800</string>
+			<string>1024x768</string>
+			<string>800x600</string>
+			<string>640x480</string>
+		</array>
+		<key>windowSize.shortcut</key>
+		<string></string>
 		<key>zoom.clickAction</key>
 		<string>none</string>
 		<key>zoom.factor</key>
