@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.8</string>
+	<string>0.0.9</string>
 	<key>createdAt</key>
-	<date>2026-10-16T12:30:40Z</date>
+	<date>2026-10-17T13:19:24Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -118,6 +118,14 @@
 		<string>clipboard</string>
 		<key>clipboard.menuTitleLength</key>
 		<integer>40</integer>
+		<key>clipboard.viewerDuration</key>
+		<integer>5</integer>
+		<key>clipboard.viewerEnabled</key>
+		<false/>
+		<key>clipboard.viewerMonitor</key>
+		<integer>0</integer>
+		<key>clipboard.viewerPosition</key>
+		<string>topRight</string>
 		<key>colorPicker.copyFormat</key>
 		<string>hex</string>
 		<key>colorPicker.copyOnClick</key>
@@ -149,6 +157,38 @@
 		<real>40</real>
 		<key>coordinates.showsCursorIcon</key>
 		<true/>
+		<key>countdown.autoReposition</key>
+		<false/>
+		<key>countdown.endTime</key>
+		<true/>
+		<key>countdown.monitor</key>
+		<integer>0</integer>
+		<key>countdown.notification.enabled</key>
+		<true/>
+		<key>countdown.notification.icon</key>
+		<string>info</string>
+		<key>countdown.notification.message</key>
+		<string>カウントダウン終了です。</string>
+		<key>countdown.notification.sound</key>
+		<string>none</string>
+		<key>countdown.position</key>
+		<string>topRight</string>
+		<key>countdown.presets</key>
+		<array>
+			<integer>30</integer>
+			<integer>60</integer>
+			<integer>180</integer>
+			<integer>300</integer>
+			<integer>600</integer>
+			<integer>900</integer>
+			<integer>1800</integer>
+			<integer>3600</integer>
+			<integer>5400</integer>
+			<integer>6000</integer>
+			<integer>7200</integer>
+		</array>
+		<key>countdown.size</key>
+		<real>80</real>
 		<key>editor.cameraID</key>
 		<string>0x1100002f9d1101</string>
 		<key>editor.closesAfterCopy</key>
@@ -181,24 +221,24 @@
 		<string>diagonalGrid</string>
 		<key>editor.sharedPresets</key>
 		<data>
-		W3sib3BhY2l0eSI6MC4yNSwib3V0bGluZVdpZHRoIjozLCJ3aWR0aCI6Niwi
-		c2hhZG93IjpmYWxzZSwib3V0bGluZUVuYWJsZWQiOnRydWUsImNvbG9yIjoi
-		I0ZGM0IzMCJ9LHsib3BhY2l0eSI6MC4zNTAwMDAwMDAwMDAwMDAwMywib3V0
-		bGluZVdpZHRoIjozLCJ3aWR0aCI6Niwic2hhZG93IjpmYWxzZSwib3V0bGlu
-		ZUVuYWJsZWQiOnRydWUsImNvbG9yIjoiI0ZGOTUwMCJ9LHsib3BhY2l0eSI6
-		MSwib3V0bGluZVdpZHRoIjozLCJ3aWR0aCI6Niwic2hhZG93IjpmYWxzZSwi
-		b3V0bGluZUVuYWJsZWQiOnRydWUsImNvbG9yIjoiI0ZGQ0MwMCJ9LHsib3Bh
-		Y2l0eSI6MC40LCJvdXRsaW5lV2lkdGgiOjMsIndpZHRoIjo2LCJzaGFkb3ci
-		OmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwiY29sb3IiOiIjMzRDNzU5
-		In0seyJvcGFjaXR5IjoxLCJvdXRsaW5lV2lkdGgiOjMsIndpZHRoIjo2LCJz
-		aGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwiY29sb3IiOiIj
-		MDA3QUZGIn0seyJvcGFjaXR5IjoxLCJvdXRsaW5lV2lkdGgiOjMsIndpZHRo
-		Ijo2LCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwiY29s
-		b3IiOiIjQUY1MkRFIn0seyJvcGFjaXR5IjoxLCJvdXRsaW5lV2lkdGgiOjMs
-		IndpZHRoIjo2LCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1
-		ZSwiY29sb3IiOiIjRkZGRkZGIn0seyJvcGFjaXR5IjoxLCJvdXRsaW5lV2lk
-		dGgiOjMsIndpZHRoIjo2LCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxl
-		ZCI6dHJ1ZSwiY29sb3IiOiIjMDAwMDAwIn1d
+		W3siY29sb3IiOiIjRkYzQjMwIiwic2hhZG93IjpmYWxzZSwib3V0bGluZUVu
+		YWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3BhY2l0eSI6MSwid2lk
+		dGgiOjMyfSx7ImNvbG9yIjoiI0ZGOTUwMCIsInNoYWRvdyI6ZmFsc2UsIm91
+		dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRsaW5lV2lkdGgiOjMsIm9wYWNpdHki
+		OjAuMzUwMDAwMDAwMDAwMDAwMDMsIndpZHRoIjo2fSx7ImNvbG9yIjoiI0ZG
+		Q0MwMCIsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJv
+		dXRsaW5lV2lkdGgiOjMsIm9wYWNpdHkiOjEsIndpZHRoIjo2fSx7ImNvbG9y
+		IjoiIzM0Qzc1OSIsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0
+		cnVlLCJvdXRsaW5lV2lkdGgiOjMsIm9wYWNpdHkiOjAuNCwid2lkdGgiOjZ9
+		LHsiY29sb3IiOiIjMDA3QUZGIiwic2hhZG93IjpmYWxzZSwib3V0bGluZUVu
+		YWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3BhY2l0eSI6MSwid2lk
+		dGgiOjZ9LHsiY29sb3IiOiIjQUY1MkRFIiwic2hhZG93IjpmYWxzZSwib3V0
+		bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3BhY2l0eSI6
+		MSwid2lkdGgiOjZ9LHsiY29sb3IiOiIjRkZGRkZGIiwic2hhZG93IjpmYWxz
+		ZSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3Bh
+		Y2l0eSI6MSwid2lkdGgiOjZ9LHsiY29sb3IiOiIjMDAwMDAwIiwic2hhZG93
+		IjpmYWxzZSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6
+		Mywib3BhY2l0eSI6MSwid2lkdGgiOjMxfV0=
 		</data>
 		<key>editor.showsGrid</key>
 		<false/>
@@ -214,8 +254,12 @@
 		<string></string>
 		<key>editor.textExtract.fontSize</key>
 		<real>14</real>
+		<key>editor.toolInfoEnabled</key>
+		<true/>
 		<key>editor.toolInfoPosition</key>
 		<string>bottomLeft</string>
+		<key>editor.toolInfoSize</key>
+		<string>medium</string>
 		<key>editor.toolbarColored</key>
 		<true/>
 		<key>editor.toolbarIconSize</key>
@@ -231,7 +275,7 @@
 		<key>editor.transparencyColorEnabled</key>
 		<false/>
 		<key>escapeHoldDuration</key>
-		<real>0.5</real>
+		<real>1.5</real>
 		<key>highlight.color</key>
 		<string>#FFCC00</string>
 		<key>highlight.opacity</key>
@@ -241,7 +285,7 @@
 		<key>highlight.softness</key>
 		<real>0.29999999999999999</real>
 		<key>holdDuration</key>
-		<real>0.5</real>
+		<real>1.5</real>
 		<key>keyMonitor.activeColor</key>
 		<string>#FF9500</string>
 		<key>keyMonitor.autoAdjust</key>
@@ -301,7 +345,7 @@
 		<key>micLevel.ai.todayCostThreshold</key>
 		<real>10000</real>
 		<key>micLevel.autoReposition</key>
-		<true/>
+		<false/>
 		<key>micLevel.bulkSize</key>
 		<real>80</real>
 		<key>micLevel.calendar.enabled</key>
@@ -312,6 +356,14 @@
 		<string>both</string>
 		<key>micLevel.calendar.weekdays</key>
 		<false/>
+		<key>micLevel.clock.date</key>
+		<true/>
+		<key>micLevel.clock.enabled</key>
+		<false/>
+		<key>micLevel.clock.hourCycle</key>
+		<string>twentyFour</string>
+		<key>micLevel.clock.style</key>
+		<string>digital</string>
 		<key>micLevel.cpu.enabled</key>
 		<false/>
 		<key>micLevel.cpu.style</key>
@@ -327,7 +379,7 @@
 		<key>micLevel.monitor</key>
 		<integer>0</integer>
 		<key>micLevel.order</key>
-		<string>claude,codex,calendar,cpu,memory,mic</string>
+		<string>claude,codex,calendar,clock,cpu,memory,mic</string>
 		<key>micLevel.position</key>
 		<string>bottomRight</string>
 		<key>micLevel.sensitivity</key>
@@ -339,6 +391,8 @@
 		<key>micLevel.size.calendar</key>
 		<real>80</real>
 		<key>micLevel.size.claude</key>
+		<real>80</real>
+		<key>micLevel.size.clock</key>
 		<real>80</real>
 		<key>micLevel.size.codex</key>
 		<real>80</real>
@@ -424,6 +478,8 @@
 		<string>none</string>
 		<key>pen.eraserSize</key>
 		<real>40</real>
+		<key>pen.leftChangeKey</key>
+		<string>leftShift</string>
 		<key>pen.leftColor</key>
 		<string>#FF3B30</string>
 		<key>pen.leftEndCap</key>
@@ -452,6 +508,8 @@
 		<real>8</real>
 		<key>pen.reselectsItems</key>
 		<true/>
+		<key>pen.rightChangeKey</key>
+		<string>rightShift</string>
 		<key>pen.rightColor</key>
 		<string>#007AFF</string>
 		<key>pen.rightEndCap</key>
@@ -480,10 +538,12 @@
 		<real>8</real>
 		<key>pen.showsCursorIcon</key>
 		<true/>
+		<key>pen.showsSelectedTool</key>
+		<true/>
 		<key>pen.straightLineKey</key>
 		<string>none</string>
 		<key>pen.toolPaletteKey</key>
-		<string>rightShift</string>
+		<string>rightOption</string>
 		<key>showsReleaseNotes</key>
 		<true/>
 		<key>snippets.infoWindow.enabled</key>
