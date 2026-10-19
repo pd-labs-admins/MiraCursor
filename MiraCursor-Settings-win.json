@@ -2,8 +2,8 @@
   "Format": "MiraCursor.settings",
   "FormatVersion": 1,
   "Platform": "Windows",
-  "AppVersion": "0.0.9",
-  "CreatedAt": "2026-10-17T22:19:12.2939244+09:00",
+  "AppVersion": "0.0.10",
+  "CreatedAt": "2026-10-19T11:36:03.0564674+09:00",
   "Settings": {
     "TriggerBindings": [
       {
@@ -14,7 +14,7 @@
     ],
     "HoldDuration": 1.5,
     "EscapeHoldDuration": 1.5,
-    "AutoUpdate": true,
+    "AutoUpdateMode": "Stable",
     "ShowsReleaseNotes": true,
     "SpotlightDimOpacity": 0.6,
     "SpotlightRadius": 150,
@@ -65,8 +65,22 @@
     "PenShowsCursorIcon": true,
     "MenuShortcut": 327757,
     "CaptureModeShortcut": 327768,
-    "MicLevelShortcut": 0,
     "ClipboardShortcut": 0,
+    "AlarmStartShortcut": 0,
+    "AlarmPresetsShortcut": 0,
+    "AlarmScheduleTimeShortcut": 0,
+    "WidgetShortcuts": {
+      "Claude": 0,
+      "ClaudeWsl": 0,
+      "Codex": 0,
+      "Calendar": 0,
+      "Clock": 0,
+      "Cpu": 0,
+      "Memory": 0,
+      "Mic": 0,
+      "Volume": 0,
+      "Window": 0
+    },
     "SnippetShortcut": 0,
     "PenCursorSize": 48,
     "PenStraightLineKey": "None",
@@ -92,7 +106,9 @@
     "EditorConfirmsClose": false,
     "EditorClosesWithEscape": true,
     "EditorClosesAfterCopy": false,
+    "EditorPreviewSwitchWithShift": true,
     "EditorShowsGrid": false,
+    "EditorPaletteSteps": 4,
     "EditorToolbarColored": true,
     "EditorToolbarLayout": "VerticalAndHorizontal",
     "EditorToolbarIconSize": "Medium",
@@ -133,72 +149,6 @@
     "EditorSelectionFillOpacity": 70,
     "EditorSelectionPattern": "DiagonalGrid",
     "EditorSelectionColor": "#007AFF",
-    "EditorSharedPresets": [
-      {
-        "Color": "#FF3B30",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      },
-      {
-        "Color": "#FF9500",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      },
-      {
-        "Color": "#FFCC00",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      },
-      {
-        "Color": "#34C759",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      },
-      {
-        "Color": "#007AFF",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      },
-      {
-        "Color": "#AF52DE",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      },
-      {
-        "Color": "#FFFFFF",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      },
-      {
-        "Color": "#000000",
-        "Width": 6,
-        "Opacity": 100,
-        "Shadow": false,
-        "Outline": true,
-        "OutlineWidth": 3
-      }
-    ],
     "EditorTextExtractAction": "Clipboard",
     "EditorTextExtractFont": "",
     "EditorTextExtractFontSize": 10,
@@ -219,10 +169,12 @@
       "Clock": 80,
       "Cpu": 80,
       "Memory": 80,
-      "Mic": 80
+      "Mic": 80,
+      "Volume": 80,
+      "Window": 80
     },
     "MicLevelBulkSize": 80,
-    "MicLevelMonitor": 0,
+    "MicLevelMonitor": 1,
     "MicLevelSensitivity": 5,
     "MicLevelShowsClaude": false,
     "MicLevelAIShowsTokens": true,
@@ -238,12 +190,15 @@
     "MicLevelShowsMic": false,
     "MicLevelShowsCalendar": false,
     "MicLevelShowsClock": false,
+    "MicLevelShowsWindow": false,
+    "WindowWidgetShowsTitle": false,
+    "WindowWidgetShowsSize": false,
     "MicLevelClockStyle": "Digital",
     "MicLevelClockHourCycle": "TwentyFour",
     "MicLevelClockShowsDate": true,
     "CountdownPosition": "TopRight",
     "CountdownAutoReposition": false,
-    "CountdownMonitor": 0,
+    "CountdownMonitor": 1,
     "CountdownSize": 80,
     "CountdownPresets": [
       30,
@@ -260,9 +215,25 @@
     ],
     "CountdownShowsEndTime": true,
     "CountdownNotifies": true,
-    "CountdownNotificationIcon": "Info",
-    "CountdownSound": "None",
-    "CountdownMessage": "\u30AB\u30A6\u30F3\u30C8\u30C0\u30A6\u30F3\u7D42\u4E86\u3067\u3059\u3002",
+    "CountdownNotificationIcon": "Warning",
+    "CountdownSound": "Alarm",
+    "AlarmPosition": "TopRight",
+    "AlarmAutoReposition": false,
+    "AlarmMonitor": 1,
+    "AlarmSize": 80,
+    "AlarmShowsEndTime": true,
+    "AlarmNotifies": true,
+    "AlarmNotificationIcon": "Warning",
+    "AlarmSound": "Alarm",
+    "AlarmSoundRepeatCount": 3,
+    "AlarmPresets": [
+      720
+    ],
+    "AlarmActivePresets": [],
+    "AlarmDefaultPreset": 720,
+    "AlarmProgressEnabled": true,
+    "AlarmProgressPosition": "Bottom",
+    "AlarmProgressSize": "Medium",
     "MicLevelCalendarShowsWeekdays": false,
     "MicLevelCalendarTitle": "Both",
     "MicLevelCalendarRange": "TwoWeeks",
@@ -274,9 +245,11 @@
       "Clock",
       "Cpu",
       "Memory",
-      "Mic"
+      "Mic",
+      "Volume",
+      "Window"
     ],
-    "KeyMonitorMonitor": 0,
+    "KeyMonitorMonitor": 1,
     "TextBlurStyle": "Mosaic",
     "TextBlurGranularity": "Standard",
     "TextBlurPresets": [

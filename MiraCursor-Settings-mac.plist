@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.9</string>
+	<string>0.0.10</string>
 	<key>createdAt</key>
-	<date>2026-10-17T13:19:24Z</date>
+	<date>2026-10-19T02:38:28Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -28,8 +28,44 @@
 		<string>toggle</string>
 		<key>activationStyle.spotlight</key>
 		<string>momentary</string>
-		<key>autoUpdate</key>
+		<key>alarm.autoReposition</key>
+		<false/>
+		<key>alarm.defaultPreset</key>
+		<integer>720</integer>
+		<key>alarm.endTime</key>
 		<true/>
+		<key>alarm.monitor</key>
+		<integer>1</integer>
+		<key>alarm.notification.enabled</key>
+		<true/>
+		<key>alarm.notification.icon</key>
+		<string>warning</string>
+		<key>alarm.notification.sound</key>
+		<string>alarm</string>
+		<key>alarm.notification.soundRepeatCount</key>
+		<integer>3</integer>
+		<key>alarm.position</key>
+		<string>topRight</string>
+		<key>alarm.presets</key>
+		<array>
+			<integer>720</integer>
+		</array>
+		<key>alarm.presetsShortcut</key>
+		<string></string>
+		<key>alarm.progress.enabled</key>
+		<true/>
+		<key>alarm.progress.position</key>
+		<string>bottom</string>
+		<key>alarm.progress.size</key>
+		<string>medium</string>
+		<key>alarm.scheduleTimeShortcut</key>
+		<string></string>
+		<key>alarm.size</key>
+		<real>80</real>
+		<key>alarm.startShortcut</key>
+		<string></string>
+		<key>autoUpdateMode</key>
+		<string>stable</string>
 		<key>capture.backgroundColor</key>
 		<string>#007AFF</string>
 		<key>capture.continuous</key>
@@ -123,9 +159,11 @@
 		<key>clipboard.viewerEnabled</key>
 		<false/>
 		<key>clipboard.viewerMonitor</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>clipboard.viewerPosition</key>
 		<string>topRight</string>
+		<key>clipboard.viewerShortcut</key>
+		<string></string>
 		<key>colorPicker.copyFormat</key>
 		<string>hex</string>
 		<key>colorPicker.copyOnClick</key>
@@ -159,18 +197,22 @@
 		<true/>
 		<key>countdown.autoReposition</key>
 		<false/>
+		<key>countdown.defaultPreset</key>
+		<integer>600</integer>
 		<key>countdown.endTime</key>
 		<true/>
 		<key>countdown.monitor</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>countdown.notification.enabled</key>
 		<true/>
 		<key>countdown.notification.icon</key>
-		<string>info</string>
+		<string>warning</string>
 		<key>countdown.notification.message</key>
-		<string>カウントダウン終了です。</string>
+		<string>時間です。</string>
 		<key>countdown.notification.sound</key>
-		<string>none</string>
+		<string>alarm</string>
+		<key>countdown.notification.soundRepeatCount</key>
+		<integer>3</integer>
 		<key>countdown.position</key>
 		<string>topRight</string>
 		<key>countdown.presets</key>
@@ -187,8 +229,18 @@
 			<integer>6000</integer>
 			<integer>7200</integer>
 		</array>
+		<key>countdown.presetsShortcut</key>
+		<string></string>
+		<key>countdown.progress.enabled</key>
+		<true/>
+		<key>countdown.progress.position</key>
+		<string>bottom</string>
+		<key>countdown.progress.size</key>
+		<string>medium</string>
 		<key>countdown.size</key>
 		<real>80</real>
+		<key>countdown.startShortcut</key>
+		<string></string>
 		<key>editor.cameraID</key>
 		<string>0x1100002f9d1101</string>
 		<key>editor.closesAfterCopy</key>
@@ -205,10 +257,16 @@
 		<real>0.80000000000000004</real>
 		<key>editor.gridSpacing</key>
 		<real>50</real>
+		<key>editor.numberSize</key>
+		<real>48</real>
 		<key>editor.openShortcut</key>
 		<string></string>
+		<key>editor.paletteSteps</key>
+		<integer>4</integer>
 		<key>editor.panelSide</key>
 		<string>left</string>
+		<key>editor.previewSwitchWithShift</key>
+		<true/>
 		<key>editor.propertyStyle</key>
 		<string>sidebar</string>
 		<key>editor.selection.animated</key>
@@ -221,24 +279,24 @@
 		<string>diagonalGrid</string>
 		<key>editor.sharedPresets</key>
 		<data>
-		W3siY29sb3IiOiIjRkYzQjMwIiwic2hhZG93IjpmYWxzZSwib3V0bGluZUVu
-		YWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3BhY2l0eSI6MSwid2lk
-		dGgiOjMyfSx7ImNvbG9yIjoiI0ZGOTUwMCIsInNoYWRvdyI6ZmFsc2UsIm91
-		dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRsaW5lV2lkdGgiOjMsIm9wYWNpdHki
-		OjAuMzUwMDAwMDAwMDAwMDAwMDMsIndpZHRoIjo2fSx7ImNvbG9yIjoiI0ZG
-		Q0MwMCIsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJv
-		dXRsaW5lV2lkdGgiOjMsIm9wYWNpdHkiOjEsIndpZHRoIjo2fSx7ImNvbG9y
-		IjoiIzM0Qzc1OSIsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVFbmFibGVkIjp0
-		cnVlLCJvdXRsaW5lV2lkdGgiOjMsIm9wYWNpdHkiOjAuNCwid2lkdGgiOjZ9
-		LHsiY29sb3IiOiIjMDA3QUZGIiwic2hhZG93IjpmYWxzZSwib3V0bGluZUVu
-		YWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3BhY2l0eSI6MSwid2lk
-		dGgiOjZ9LHsiY29sb3IiOiIjQUY1MkRFIiwic2hhZG93IjpmYWxzZSwib3V0
-		bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3BhY2l0eSI6
-		MSwid2lkdGgiOjZ9LHsiY29sb3IiOiIjRkZGRkZGIiwic2hhZG93IjpmYWxz
-		ZSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6Mywib3Bh
-		Y2l0eSI6MSwid2lkdGgiOjZ9LHsiY29sb3IiOiIjMDAwMDAwIiwic2hhZG93
-		IjpmYWxzZSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6
-		Mywib3BhY2l0eSI6MSwid2lkdGgiOjMxfV0=
+		W3sib3V0bGluZVdpZHRoIjozLCJvcGFjaXR5IjoxLCJ3aWR0aCI6Niwic2hh
+		ZG93IjpmYWxzZSwic2hhZG93TGVuZ3RoIjo0LCJjb2xvciI6IiNGRjNCMzAi
+		LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6IiNGRjk1MDAiLCJ3
+		aWR0aCI6Niwib3V0bGluZVdpZHRoIjozLCJvcGFjaXR5IjoxLCJzaGFkb3ci
+		OmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6IiNGRkND
+		MDAiLCJ3aWR0aCI6Niwib3V0bGluZVdpZHRoIjozLCJvcGFjaXR5IjoxLCJz
+		aGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6
+		IiMzNEM3NTkiLCJ3aWR0aCI6Niwib3V0bGluZVdpZHRoIjozLCJvcGFjaXR5
+		IjoxLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJj
+		b2xvciI6IiMwMDdBRkYiLCJ3aWR0aCI6Niwib3V0bGluZVdpZHRoIjozLCJv
+		cGFjaXR5IjoxLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxlZCI6dHJ1
+		ZX0seyJjb2xvciI6IiNBRjUyREUiLCJ3aWR0aCI6Niwib3V0bGluZVdpZHRo
+		IjozLCJvcGFjaXR5IjoxLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lRW5hYmxl
+		ZCI6dHJ1ZX0seyJjb2xvciI6IiNGRkZGRkYiLCJ3aWR0aCI6Niwib3V0bGlu
+		ZVdpZHRoIjozLCJvcGFjaXR5IjoxLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5l
+		RW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6IiMwMDAwMDAiLCJ3aWR0aCI6Niwi
+		b3V0bGluZVdpZHRoIjozLCJvcGFjaXR5IjoxLCJzaGFkb3ciOmZhbHNlLCJv
+		dXRsaW5lRW5hYmxlZCI6dHJ1ZX1d
 		</data>
 		<key>editor.showsGrid</key>
 		<false/>
@@ -254,6 +312,8 @@
 		<string></string>
 		<key>editor.textExtract.fontSize</key>
 		<real>14</real>
+		<key>editor.textSize</key>
+		<real>36</real>
 		<key>editor.toolInfoEnabled</key>
 		<true/>
 		<key>editor.toolInfoPosition</key>
@@ -305,7 +365,7 @@
 		<key>keyMonitor.keyboardSize</key>
 		<string>large</string>
 		<key>keyMonitor.monitor</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>keyMonitor.offset</key>
 		<real>40</real>
 		<key>keyMonitor.position</key>
@@ -335,6 +395,8 @@
 		<key>micLevel.ai.claude.enabled</key>
 		<false/>
 		<key>micLevel.ai.codex.enabled</key>
+		<false/>
+		<key>micLevel.ai.enabled</key>
 		<false/>
 		<key>micLevel.ai.monthCostThreshold</key>
 		<real>100000</real>
@@ -377,16 +439,24 @@
 		<key>micLevel.mic.enabled</key>
 		<false/>
 		<key>micLevel.monitor</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>micLevel.order</key>
-		<string>claude,codex,calendar,clock,cpu,memory,mic</string>
+		<string>claude,codex,calendar,clock,cpu,memory,mic,volume,window</string>
 		<key>micLevel.position</key>
 		<string>bottomRight</string>
+		<key>micLevel.position.ai</key>
+		<string>topLeft</string>
+		<key>micLevel.position.calendar</key>
+		<string>bottomLeft</string>
+		<key>micLevel.position.clock</key>
+		<string>bottomRight</string>
+		<key>micLevel.position.volume</key>
+		<string>right</string>
 		<key>micLevel.sensitivity</key>
 		<real>5</real>
-		<key>micLevel.shortcut</key>
-		<string></string>
 		<key>micLevel.size</key>
+		<real>80</real>
+		<key>micLevel.size.ai</key>
 		<real>80</real>
 		<key>micLevel.size.calendar</key>
 		<real>80</real>
@@ -402,6 +472,20 @@
 		<real>80</real>
 		<key>micLevel.size.mic</key>
 		<real>80</real>
+		<key>micLevel.size.window</key>
+		<real>80</real>
+		<key>micLevel.volume.enabled</key>
+		<false/>
+		<key>micLevel.volume.presets</key>
+		<string>[{"volume":0.5,"id":"3891B861-19C1-43DF-A1FC-FD767F03AA8C","doesNotChangeVolume":true,"isDefault":true}]</string>
+		<key>micLevel.volume.showsDeviceName</key>
+		<true/>
+		<key>micLevel.window.enabled</key>
+		<false/>
+		<key>micLevel.window.showsSize</key>
+		<false/>
+		<key>micLevel.window.showsTitle</key>
+		<false/>
 		<key>mouseCursor.animates</key>
 		<false/>
 		<key>mouseCursor.animation</key>
@@ -63909,6 +63993,8 @@
 		<string>leftOption+leftShift</string>
 		<key>triggerKey.spotlight</key>
 		<string>none</string>
+		<key>widget.shortcuts</key>
+		<dict/>
 		<key>windowSize.autoReposition</key>
 		<true/>
 		<key>windowSize.includesFrame</key>
