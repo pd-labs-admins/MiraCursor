@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.10</string>
+	<string>0.0.11</string>
 	<key>createdAt</key>
-	<date>2026-10-19T02:38:28Z</date>
+	<date>2026-10-20T13:57:23Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -87,6 +87,8 @@
 		<key>capture.includesShadow</key>
 		<false/>
 		<key>capture.includesWallpaper</key>
+		<true/>
+		<key>capture.includesWidgets</key>
 		<true/>
 		<key>capture.meetingIcons.teams</key>
 		<false/>
@@ -241,6 +243,8 @@
 		<real>80</real>
 		<key>countdown.startShortcut</key>
 		<string></string>
+		<key>editor.autoExpandCanvas</key>
+		<true/>
 		<key>editor.cameraID</key>
 		<string>0x1100002f9d1101</string>
 		<key>editor.closesAfterCopy</key>
@@ -262,7 +266,7 @@
 		<key>editor.openShortcut</key>
 		<string></string>
 		<key>editor.paletteSteps</key>
-		<integer>4</integer>
+		<integer>3</integer>
 		<key>editor.panelSide</key>
 		<string>left</string>
 		<key>editor.previewSwitchWithShift</key>
@@ -317,7 +321,7 @@
 		<key>editor.toolInfoEnabled</key>
 		<true/>
 		<key>editor.toolInfoPosition</key>
-		<string>bottomLeft</string>
+		<string>bottomRight</string>
 		<key>editor.toolInfoSize</key>
 		<string>medium</string>
 		<key>editor.toolbarColored</key>
@@ -402,6 +406,8 @@
 		<real>100000</real>
 		<key>micLevel.ai.showsCost</key>
 		<false/>
+		<key>micLevel.ai.showsForecast</key>
+		<true/>
 		<key>micLevel.ai.showsTokens</key>
 		<true/>
 		<key>micLevel.ai.todayCostThreshold</key>
@@ -562,8 +568,6 @@
 		<string>none</string>
 		<key>pen.eraserSize</key>
 		<real>40</real>
-		<key>pen.leftChangeKey</key>
-		<string>leftShift</string>
 		<key>pen.leftColor</key>
 		<string>#FF3B30</string>
 		<key>pen.leftEndCap</key>
@@ -592,8 +596,6 @@
 		<real>8</real>
 		<key>pen.reselectsItems</key>
 		<true/>
-		<key>pen.rightChangeKey</key>
-		<string>rightShift</string>
 		<key>pen.rightColor</key>
 		<string>#007AFF</string>
 		<key>pen.rightEndCap</key>
@@ -620,12 +622,14 @@
 		<real>32</real>
 		<key>pen.rightWidth</key>
 		<real>8</real>
+		<key>pen.settingsTargetKey</key>
+		<string>rightShift</string>
 		<key>pen.showsCursorIcon</key>
 		<true/>
 		<key>pen.showsSelectedTool</key>
 		<true/>
 		<key>pen.straightLineKey</key>
-		<string>none</string>
+		<string>leftShift</string>
 		<key>pen.toolPaletteKey</key>
 		<string>rightOption</string>
 		<key>showsReleaseNotes</key>
@@ -63968,6 +63972,8 @@
 		<real>0.59999999999999998</real>
 		<key>spotlight.radius</key>
 		<real>150</real>
+		<key>spotlight.radiusChangeKey</key>
+		<string>rightShift</string>
 		<key>spotlight.softness</key>
 		<real>0.34999999999999998</real>
 		<key>triggerBindings</key>
