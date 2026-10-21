@@ -2,8 +2,8 @@
   "Format": "MiraCursor.settings",
   "FormatVersion": 1,
   "Platform": "Windows",
-  "AppVersion": "0.0.11",
-  "CreatedAt": "2026-10-20T22:55:56.7630242+09:00",
+  "AppVersion": "0.0.12",
+  "CreatedAt": "2026-10-21T16:00:18.0996168+09:00",
   "Settings": {
     "TriggerBindings": [
       {
@@ -157,6 +157,7 @@
     "TextExcludePatterns": "",
     "PenCaptureDelay": 0,
     "PenCaptureDestination": "Directory",
+    "CaptureOpenInEditorKey": "None",
     "PenCaptureFormat": "Png",
     "MicLevelEnabled": true,
     "MicLevelPosition": "BottomRight",
