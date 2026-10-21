@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.11</string>
+	<string>0.0.12</string>
 	<key>createdAt</key>
-	<date>2026-10-20T13:57:23Z</date>
+	<date>2026-10-21T08:08:08Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -104,6 +104,8 @@
 		<false/>
 		<key>capture.modeTarget</key>
 		<string>clickedWindow</string>
+		<key>capture.openInEditorKey</key>
+		<string>none</string>
 		<key>capture.showsCursorIcon</key>
 		<true/>
 		<key>capture.sound</key>
@@ -265,6 +267,68 @@
 		<real>48</real>
 		<key>editor.openShortcut</key>
 		<string></string>
+		<key>editor.options</key>
+		<data>
+		eyJzcG90bGlnaHRTaGFwZSI6InJvdW5kZWRSZWN0YW5nbGUiLCJwcmVzZXRT
+		ZWxlY3Rpb24iOnsiaGlnaGxpZ2h0ZXIiOjAsInNwcmF5IjowfSwicmVjdGFu
+		Z2xlIjp7ImNvbG9yIjoiI0ZGM0IzMCIsImxpbmVTdHlsZSI6InNvbGlkIiwi
+		d2lkdGgiOjYsIm9wYWNpdHkiOjF9LCJvdXRsaW5lRW5hYmxlZCI6eyJoaWdo
+		bGlnaHRlciI6dHJ1ZSwic3ByYXkiOnRydWV9LCJyZWN0YW5nbGVDb3JuZXJS
+		YWRpdXMiOjAsInJlY3RhbmdsZUZpbGwiOiJub25lIiwibGluZSI6eyJjb2xv
+		ciI6IiNGRjNCMzAiLCJsaW5lU3R5bGUiOiJzb2xpZCIsIndpZHRoIjo2LCJv
+		cGFjaXR5IjoxfSwicGFydGlhbEVyYXNlVG9sZXJhbmNlIjoyMCwidGV4dEJh
+		Y2tncm91bmQiOiJub25lIiwiaGlnaGxpZ2h0ZXIiOnsiY29sb3IiOiIjRkYz
+		QjMwIiwid2lkdGgiOjYsIm9wYWNpdHkiOjEsImxpbmVTdHlsZSI6InNvbGlk
+		In0sIm51bWJlclNpemUiOjQ4LCJ0ZXh0U2l6ZSI6MzYsInBhbGV0dGVDb2xv
+		ciI6IiNGRjNCMzAiLCJudW1iZXJDb2xvciI6IiNGRjNCMzAiLCJwcmVzZXRT
+		ZXRzIjp7ImhpZ2hsaWdodGVyIjpbeyJjb2xvciI6IiNGRjNCMzAiLCJzaGFk
+		b3ciOmZhbHNlLCJvdXRsaW5lV2lkdGgiOjMsIndpZHRoIjo2LCJvcGFjaXR5
+		IjoxLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6IiNGRjk1MDAi
+		LCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lV2lkdGgiOjMsIndpZHRoIjo2LCJv
+		cGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6IiNG
+		RkNDMDAiLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lV2lkdGgiOjMsIndpZHRo
+		Ijo2LCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xv
+		ciI6IiMzNEM3NTkiLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lV2lkdGgiOjMs
+		IndpZHRoIjo2LCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0s
+		eyJjb2xvciI6IiMwMDdBRkYiLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5lV2lk
+		dGgiOjMsIndpZHRoIjo2LCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxlZCI6
+		dHJ1ZX0seyJjb2xvciI6IiNBRjUyREUiLCJzaGFkb3ciOmZhbHNlLCJvdXRs
+		aW5lV2lkdGgiOjMsIndpZHRoIjo2LCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5h
+		YmxlZCI6dHJ1ZX0seyJjb2xvciI6IiNGRkZGRkYiLCJzaGFkb3ciOmZhbHNl
+		LCJvdXRsaW5lV2lkdGgiOjMsIndpZHRoIjo2LCJvcGFjaXR5IjoxLCJvdXRs
+		aW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6IiMwMDAwMDAiLCJzaGFkb3ci
+		OmZhbHNlLCJvdXRsaW5lV2lkdGgiOjMsIndpZHRoIjo2LCJvcGFjaXR5Ijox
+		LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX1dLCJzcHJheSI6W3siY29sb3IiOiIj
+		RkYzQjMwIiwic2hhZG93IjpmYWxzZSwib3V0bGluZVdpZHRoIjozLCJ3aWR0
+		aCI6MzAsIm9wYWNpdHkiOjEsIm91dGxpbmVFbmFibGVkIjp0cnVlfSx7ImNv
+		bG9yIjoiI0ZGOTUwMCIsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVXaWR0aCI6
+		Mywid2lkdGgiOjMwLCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxlZCI6dHJ1
+		ZX0seyJjb2xvciI6IiNGRkNDMDAiLCJzaGFkb3ciOmZhbHNlLCJvdXRsaW5l
+		V2lkdGgiOjMsIndpZHRoIjozMCwib3BhY2l0eSI6MSwib3V0bGluZUVuYWJs
+		ZWQiOnRydWV9LHsiY29sb3IiOiIjMzRDNzU5Iiwic2hhZG93IjpmYWxzZSwi
+		b3V0bGluZVdpZHRoIjozLCJ3aWR0aCI6MzAsIm9wYWNpdHkiOjEsIm91dGxp
+		bmVFbmFibGVkIjp0cnVlfSx7ImNvbG9yIjoiIzAwN0FGRiIsInNoYWRvdyI6
+		ZmFsc2UsIm91dGxpbmVXaWR0aCI6Mywid2lkdGgiOjMwLCJvcGFjaXR5Ijox
+		LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX0seyJjb2xvciI6IiNBRjUyREUiLCJz
+		aGFkb3ciOmZhbHNlLCJvdXRsaW5lV2lkdGgiOjMsIndpZHRoIjozMCwib3Bh
+		Y2l0eSI6MSwib3V0bGluZUVuYWJsZWQiOnRydWV9LHsiY29sb3IiOiIjRkZG
+		RkZGIiwic2hhZG93IjpmYWxzZSwib3V0bGluZVdpZHRoIjozLCJ3aWR0aCI6
+		MzAsIm9wYWNpdHkiOjEsIm91dGxpbmVFbmFibGVkIjp0cnVlfSx7ImNvbG9y
+		IjoiIzAwMDAwMCIsInNoYWRvdyI6ZmFsc2UsIm91dGxpbmVXaWR0aCI6Mywi
+		d2lkdGgiOjMwLCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZX1d
+		fSwibW9zYWljQmxvY2tTaXplIjoxNiwidGV4dENvbG9yIjoiIzAwMDAwMCIs
+		Im91dGxpbmVXaWR0aHMiOnsiaGlnaGxpZ2h0ZXIiOjMsInNwcmF5IjozfSwi
+		c2hhZG93RW5hYmxlZCI6eyJoaWdobGlnaHRlciI6ZmFsc2UsInNwcmF5Ijpm
+		YWxzZX0sInRleHRCb2xkIjpmYWxzZSwiZWxsaXBzZSI6eyJjb2xvciI6IiNG
+		RjNCMzAiLCJ3aWR0aCI6Niwib3BhY2l0eSI6MSwibGluZVN0eWxlIjoic29s
+		aWQifSwiYmFja2dyb3VuZEVyYXNlVG9sZXJhbmNlIjoyMCwiYXJyb3ciOnsi
+		Y29sb3IiOiIjRkYzQjMwIiwibGluZVN0eWxlIjoic29saWQiLCJ3aWR0aCI6
+		Niwib3BhY2l0eSI6MX0sInNwcmF5Ijp7ImNvbG9yIjoiI0ZGM0IzMCIsIndp
+		ZHRoIjozMCwib3BhY2l0eSI6MSwibGluZVN0eWxlIjoic29saWQifSwicGVu
+		Y2lsIjp7ImNvbG9yIjoiI0ZGM0IzMCIsImxpbmVTdHlsZSI6InNvbGlkIiwi
+		d2lkdGgiOjYsIm9wYWNpdHkiOjF9LCJzcG90bGlnaHREaW0iOjAuNiwiZWxs
+		aXBzZUZpbGwiOiJub25lIn0=
+		</data>
 		<key>editor.paletteSteps</key>
 		<integer>3</integer>
 		<key>editor.panelSide</key>
