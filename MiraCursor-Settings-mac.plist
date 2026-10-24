@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.13</string>
+	<string>0.0.14</string>
 	<key>createdAt</key>
-	<date>2026-10-23T06:28:18Z</date>
+	<date>2026-10-24T22:18:53Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -247,6 +247,8 @@
 		<real>80</real>
 		<key>countdown.startShortcut</key>
 		<string></string>
+		<key>displayLanguage</key>
+		<string>system</string>
 		<key>editor.autoExpandCanvas</key>
 		<true/>
 		<key>editor.cameraID</key>
@@ -259,6 +261,8 @@
 		<array/>
 		<key>editor.confirmsClose</key>
 		<false/>
+		<key>editor.customShapeHistory</key>
+		<array/>
 		<key>editor.gridColor</key>
 		<string>#808080</string>
 		<key>editor.gridLineStyle</key>
@@ -289,72 +293,10 @@
 		<real>48</real>
 		<key>editor.openShortcut</key>
 		<string></string>
-		<key>editor.options</key>
-		<data>
-		eyJudW1iZXJTaXplIjo0OCwicGVuY2lsIjp7ImNvbG9yIjoiI0ZGM0IzMCIs
-		IndpZHRoIjo2LCJsaW5lU3R5bGUiOiJzb2xpZCIsIm9wYWNpdHkiOjF9LCJy
-		ZWN0YW5nbGUiOnsiY29sb3IiOiIjRkYzQjMwIiwid2lkdGgiOjYsImxpbmVT
-		dHlsZSI6InNvbGlkIiwib3BhY2l0eSI6MX0sIm91dGxpbmVFbmFibGVkIjp7
-		InNwcmF5Ijp0cnVlLCJoaWdobGlnaHRlciI6dHJ1ZX0sImVsbGlwc2VGaWxs
-		Ijoic29saWQiLCJzcG90bGlnaHRTaGFwZSI6InJlY3RhbmdsZSIsImFycm93
-		Ijp7ImNvbG9yIjoiI0ZGM0IzMCIsIndpZHRoIjo2LCJsaW5lU3R5bGUiOiJz
-		b2xpZCIsIm9wYWNpdHkiOjF9LCJyZWN0YW5nbGVDb3JuZXJSYWRpdXMiOjAs
-		InRleHRCb2xkIjpmYWxzZSwib3V0bGluZVdpZHRocyI6eyJzcHJheSI6Mywi
-		aGlnaGxpZ2h0ZXIiOjN9LCJiYWNrZ3JvdW5kRXJhc2VUb2xlcmFuY2UiOjIw
-		LCJ0ZXh0U2l6ZSI6MzYsImxpbmUiOnsiY29sb3IiOiIjRkYzQjMwIiwid2lk
-		dGgiOjYsImxpbmVTdHlsZSI6InNvbGlkIiwib3BhY2l0eSI6MX0sInNoYWRv
-		d0VuYWJsZWQiOnsic3ByYXkiOmZhbHNlLCJoaWdobGlnaHRlciI6ZmFsc2V9
-		LCJyZWN0YW5nbGVGaWxsIjoic29saWQiLCJwYWxldHRlQ29sb3IiOiIjRkYz
-		QjMwIiwicGFydGlhbEVyYXNlVG9sZXJhbmNlIjoyMCwiZWxsaXBzZSI6eyJj
-		b2xvciI6IiNGRjNCMzAiLCJvcGFjaXR5IjoxLCJ3aWR0aCI6NiwibGluZVN0
-		eWxlIjoic29saWQifSwiaGlnaGxpZ2h0ZXIiOnsiY29sb3IiOiIjRkYzQjMw
-		Iiwib3BhY2l0eSI6MSwid2lkdGgiOjYsImxpbmVTdHlsZSI6InNvbGlkIn0s
-		InByZXNldFNldHMiOnsic3ByYXkiOlt7InNoYWRvdyI6ZmFsc2UsImNvbG9y
-		IjoiI0ZGM0IzMCIsIndpZHRoIjozMCwib3V0bGluZUVuYWJsZWQiOnRydWUs
-		Im9wYWNpdHkiOjEsIm91dGxpbmVXaWR0aCI6M30seyJzaGFkb3ciOmZhbHNl
-		LCJjb2xvciI6IiNGRjk1MDAiLCJ3aWR0aCI6MzAsIm91dGxpbmVFbmFibGVk
-		Ijp0cnVlLCJvcGFjaXR5IjoxLCJvdXRsaW5lV2lkdGgiOjN9LHsic2hhZG93
-		IjpmYWxzZSwiY29sb3IiOiIjRkZDQzAwIiwid2lkdGgiOjMwLCJvdXRsaW5l
-		RW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwib3V0bGluZVdpZHRoIjozfSx7
-		InNoYWRvdyI6ZmFsc2UsImNvbG9yIjoiIzM0Qzc1OSIsIndpZHRoIjozMCwi
-		b3V0bGluZUVuYWJsZWQiOnRydWUsIm9wYWNpdHkiOjEsIm91dGxpbmVXaWR0
-		aCI6M30seyJzaGFkb3ciOmZhbHNlLCJjb2xvciI6IiMwMDdBRkYiLCJ3aWR0
-		aCI6MzAsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJvcGFjaXR5IjoxLCJvdXRs
-		aW5lV2lkdGgiOjN9LHsic2hhZG93IjpmYWxzZSwiY29sb3IiOiIjQUY1MkRF
-		Iiwid2lkdGgiOjMwLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6
-		MSwib3V0bGluZVdpZHRoIjozfSx7InNoYWRvdyI6ZmFsc2UsImNvbG9yIjoi
-		I0ZGRkZGRiIsIndpZHRoIjozMCwib3V0bGluZUVuYWJsZWQiOnRydWUsIm9w
-		YWNpdHkiOjEsIm91dGxpbmVXaWR0aCI6M30seyJzaGFkb3ciOmZhbHNlLCJj
-		b2xvciI6IiMwMDAwMDAiLCJ3aWR0aCI6MzAsIm91dGxpbmVFbmFibGVkIjp0
-		cnVlLCJvcGFjaXR5IjoxLCJvdXRsaW5lV2lkdGgiOjN9XSwiaGlnaGxpZ2h0
-		ZXIiOlt7InNoYWRvdyI6ZmFsc2UsImNvbG9yIjoiI0ZGM0IzMCIsIndpZHRo
-		Ijo2LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwib3V0bGlu
-		ZVdpZHRoIjozfSx7InNoYWRvdyI6ZmFsc2UsImNvbG9yIjoiI0ZGOTUwMCIs
-		IndpZHRoIjo2LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwi
-		b3V0bGluZVdpZHRoIjozfSx7InNoYWRvdyI6ZmFsc2UsImNvbG9yIjoiI0ZG
-		Q0MwMCIsIndpZHRoIjo2LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwib3BhY2l0
-		eSI6MSwib3V0bGluZVdpZHRoIjozfSx7InNoYWRvdyI6ZmFsc2UsImNvbG9y
-		IjoiIzM0Qzc1OSIsIndpZHRoIjo2LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwi
-		b3BhY2l0eSI6MSwib3V0bGluZVdpZHRoIjozfSx7InNoYWRvdyI6ZmFsc2Us
-		ImNvbG9yIjoiIzAwN0FGRiIsIndpZHRoIjo2LCJvdXRsaW5lRW5hYmxlZCI6
-		dHJ1ZSwib3BhY2l0eSI6MSwib3V0bGluZVdpZHRoIjozfSx7InNoYWRvdyI6
-		ZmFsc2UsImNvbG9yIjoiI0FGNTJERSIsIndpZHRoIjo2LCJvdXRsaW5lRW5h
-		YmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwib3V0bGluZVdpZHRoIjozfSx7InNo
-		YWRvdyI6ZmFsc2UsImNvbG9yIjoiI0ZGRkZGRiIsIndpZHRoIjo2LCJvdXRs
-		aW5lRW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwib3V0bGluZVdpZHRoIjoz
-		fSx7InNoYWRvdyI6ZmFsc2UsImNvbG9yIjoiIzAwMDAwMCIsIndpZHRoIjo2
-		LCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwib3V0bGluZVdp
-		ZHRoIjozfV19LCJudW1iZXJDb2xvciI6IiNGRjNCMzAiLCJ0ZXh0Q29sb3Ii
-		OiIjMDAwMDAwIiwic3BvdGxpZ2h0RGltIjowLjYsInNwcmF5Ijp7ImNvbG9y
-		IjoiI0ZGM0IzMCIsIm9wYWNpdHkiOjEsIndpZHRoIjozMCwibGluZVN0eWxl
-		Ijoic29saWQifSwibW9zYWljQmxvY2tTaXplIjoxNiwicHJlc2V0U2VsZWN0
-		aW9uIjp7InNwcmF5IjowLCJoaWdobGlnaHRlciI6MH0sInRleHRCYWNrZ3Jv
-		dW5kIjoibm9uZSJ9
-		</data>
 		<key>editor.paletteClosesOnSelection</key>
 		<true/>
 		<key>editor.paletteSteps</key>
-		<integer>10</integer>
+		<integer>7</integer>
 		<key>editor.panelSide</key>
 		<string>left</string>
 		<key>editor.previewSwitchWithShift</key>
@@ -494,6 +436,8 @@
 		<false/>
 		<key>micLevel.ai.monthCostThreshold</key>
 		<real>100000</real>
+		<key>micLevel.ai.notifiesReset</key>
+		<true/>
 		<key>micLevel.ai.showsCost</key>
 		<false/>
 		<key>micLevel.ai.showsForecast</key>
@@ -506,10 +450,6 @@
 		<false/>
 		<key>micLevel.ai.todayCostThreshold</key>
 		<real>10000</real>
-		<key>micLevel.autoReposition</key>
-		<false/>
-		<key>micLevel.bulkSize</key>
-		<real>80</real>
 		<key>micLevel.calendar.enabled</key>
 		<false/>
 		<key>micLevel.calendar.range</key>
@@ -530,28 +470,10 @@
 		<false/>
 		<key>micLevel.cpu.style</key>
 		<string>average</string>
-		<key>micLevel.direction</key>
-		<string>horizontal</string>
-		<key>micLevel.enabled</key>
-		<true/>
 		<key>micLevel.memory.enabled</key>
 		<false/>
 		<key>micLevel.mic.enabled</key>
 		<false/>
-		<key>micLevel.monitor</key>
-		<integer>1</integer>
-		<key>micLevel.order</key>
-		<string>claude,codex,calendar,clock,cpu,memory,mic,volume,window</string>
-		<key>micLevel.position</key>
-		<string>bottomRight</string>
-		<key>micLevel.position.ai</key>
-		<string>topLeft</string>
-		<key>micLevel.position.calendar</key>
-		<string>bottomLeft</string>
-		<key>micLevel.position.clock</key>
-		<string>bottomRight</string>
-		<key>micLevel.position.volume</key>
-		<string>right</string>
 		<key>micLevel.sensitivity</key>
 		<real>5</real>
 		<key>micLevel.size</key>

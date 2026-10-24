@@ -2,9 +2,10 @@
   "Format": "MiraCursor.settings",
   "FormatVersion": 1,
   "Platform": "Windows",
-  "AppVersion": "0.0.13",
-  "CreatedAt": "2026-10-23T15:29:06.2154636+09:00",
+  "AppVersion": "0.0.14",
+  "CreatedAt": "2026-10-25T07:18:02.7759455+09:00",
   "Settings": {
+    "DisplayLanguage": "system",
     "TriggerBindings": [
       {
         "Key": "LeftCtrl, LeftShift",
@@ -108,7 +109,8 @@
     "EditorAutoExpandCanvas": true,
     "EditorShowsGrid": false,
     "EditorPaletteClosesOnSelection": true,
-    "EditorPaletteSteps": 10,
+    "EditorCustomShapeHistory": [],
+    "EditorPaletteSteps": 7,
     "EditorToolbarColored": true,
     "EditorToolbarLayout": "VerticalAndHorizontal",
     "EditorToolbarIconSize": "Medium",
@@ -118,9 +120,7 @@
     "EditorToolInfoEnabled": true,
     "EditorToolInfoPosition": "BottomRight",
     "EditorToolInfoSize": "Medium",
-    "EditorCollapsedPanes": [
-      "lists"
-    ],
+    "EditorCollapsedPanes": [],
     "ClipboardHistoryEnabled": false,
     "ClipboardViewerEnabled": false,
     "ClipboardViewerDuration": 5,
@@ -152,6 +152,7 @@
     "EditorShapeFillColor": "#FF3B30",
     "EditorShapeFillOpacity": 100,
     "EditorShapeFillPattern": "diagonal",
+    "EditorTextDirection": "horizontal",
     "EditorNewImageBackgroundColor": "#FFFFFF",
     "EditorNewImagePresets": [
       "1920x1200|WUXGA (16:10)",
@@ -178,10 +179,6 @@
     "PenCaptureDestination": "Directory",
     "CaptureOpenInEditorKey": "None",
     "PenCaptureFormat": "Png",
-    "MicLevelEnabled": true,
-    "MicLevelPosition": "BottomRight",
-    "MicLevelAutoReposition": false,
-    "MicLevelDirection": "Horizontal",
     "MicLevelSizes": {
       "Claude": 80,
       "ClaudeWsl": 80,
@@ -194,11 +191,10 @@
       "Volume": 80,
       "Window": 80
     },
-    "MicLevelBulkSize": 80,
-    "MicLevelMonitor": 1,
     "MicLevelSensitivity": 5,
     "MicLevelShowsClaude": false,
     "MicLevelAIShowsWeeklyResetForecast": false,
+    "MicLevelAINotifiesReset": true,
     "MicLevelAIShowsResetForecast": true,
     "MicLevelAIShowsTokens": true,
     "MicLevelAIShowsCost": false,
@@ -264,18 +260,6 @@
     "MicLevelCalendarShowsWeekdays": false,
     "MicLevelCalendarTitle": "Both",
     "MicLevelCalendarRange": "TwoWeeks",
-    "MicLevelOrder": [
-      "Claude",
-      "ClaudeWsl",
-      "Codex",
-      "Calendar",
-      "Clock",
-      "Cpu",
-      "Memory",
-      "Mic",
-      "Volume",
-      "Window"
-    ],
     "KeyMonitorMonitor": 1,
     "TextBlurStyle": "Mosaic",
     "TextBlurGranularity": "Standard",
