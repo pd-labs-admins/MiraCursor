@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.14</string>
+	<string>0.0.15</string>
 	<key>createdAt</key>
-	<date>2026-10-24T22:18:53Z</date>
+	<date>2026-10-25T23:40:53Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -289,8 +289,12 @@
 		</array>
 		<key>editor.newImage.transparent</key>
 		<false/>
+		<key>editor.newlineWithEnter</key>
+		<true/>
 		<key>editor.numberSize</key>
 		<real>48</real>
+		<key>editor.openButtons</key>
+		<false/>
 		<key>editor.openShortcut</key>
 		<string></string>
 		<key>editor.paletteClosesOnSelection</key>
@@ -303,6 +307,8 @@
 		<true/>
 		<key>editor.propertyStyle</key>
 		<string>sidebar</string>
+		<key>editor.saveButtons</key>
+		<false/>
 		<key>editor.selection.animated</key>
 		<true/>
 		<key>editor.selection.color</key>
@@ -311,6 +317,8 @@
 		<real>70</real>
 		<key>editor.selection.pattern</key>
 		<string>diagonalGrid</string>
+		<key>editor.shapeAlignmentButtons</key>
+		<true/>
 		<key>editor.sharedPresets</key>
 		<data>
 		W3sib3V0bGluZVdpZHRoIjozLCJvcGFjaXR5IjoxLCJ3aWR0aCI6Niwic2hh
@@ -334,6 +342,8 @@
 		</data>
 		<key>editor.showsGrid</key>
 		<false/>
+		<key>editor.showsNewlineHelp</key>
+		<true/>
 		<key>editor.showsToolInfo</key>
 		<true/>
 		<key>editor.snapGuideColor</key>
@@ -352,6 +362,8 @@
 		<string></string>
 		<key>editor.textExtract.fontSize</key>
 		<real>14</real>
+		<key>editor.textPlacementButtons</key>
+		<true/>
 		<key>editor.textSize</key>
 		<real>36</real>
 		<key>editor.toolInfoEnabled</key>
