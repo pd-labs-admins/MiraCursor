@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.15</string>
+	<string>0.0.16</string>
 	<key>createdAt</key>
-	<date>2026-10-25T23:40:53Z</date>
+	<date>2026-10-26T05:45:34Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -485,6 +485,10 @@
 		<key>micLevel.memory.enabled</key>
 		<false/>
 		<key>micLevel.mic.enabled</key>
+		<false/>
+		<key>micLevel.outlook.clientID</key>
+		<string></string>
+		<key>micLevel.outlook.enabled</key>
 		<false/>
 		<key>micLevel.sensitivity</key>
 		<real>5</real>
