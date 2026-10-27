@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.16</string>
+	<string>0.0.17</string>
 	<key>createdAt</key>
-	<date>2026-10-26T05:45:34Z</date>
+	<date>2026-10-27T10:24:58Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -108,6 +108,8 @@
 		<string>none</string>
 		<key>capture.showsCursorIcon</key>
 		<true/>
+		<key>capture.showsTargetInfo</key>
+		<false/>
 		<key>capture.sound</key>
 		<true/>
 		<key>capture.textBlur.enabled</key>
@@ -487,9 +489,11 @@
 		<key>micLevel.mic.enabled</key>
 		<false/>
 		<key>micLevel.outlook.clientID</key>
-		<string></string>
+		<string>5ecefab2-987d-4dea-b992-7379ca8da2e9</string>
 		<key>micLevel.outlook.enabled</key>
 		<false/>
+		<key>micLevel.outlook.tenantID</key>
+		<string>58348390-6452-4be3-bb4c-eb5ac82ae476</string>
 		<key>micLevel.sensitivity</key>
 		<real>5</real>
 		<key>micLevel.size</key>
@@ -626,6 +630,8 @@
 		<real>32</real>
 		<key>pen.leftWidth</key>
 		<real>8</real>
+		<key>pen.newlineWithEnter</key>
+		<true/>
 		<key>pen.reselectsItems</key>
 		<true/>
 		<key>pen.rightColor</key>
@@ -657,6 +663,8 @@
 		<key>pen.settingsTargetKey</key>
 		<string>rightShift</string>
 		<key>pen.showsCursorIcon</key>
+		<true/>
+		<key>pen.showsNewlineHelp</key>
 		<true/>
 		<key>pen.showsSelectedTool</key>
 		<true/>
