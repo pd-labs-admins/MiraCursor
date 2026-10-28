@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.17</string>
+	<string>0.0.18</string>
 	<key>createdAt</key>
-	<date>2026-10-27T10:24:58Z</date>
+	<date>2026-10-28T11:16:05Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -68,6 +68,8 @@
 		<string>stable</string>
 		<key>capture.backgroundColor</key>
 		<string>#007AFF</string>
+		<key>capture.clickAction</key>
+		<string>capture</string>
 		<key>capture.continuous</key>
 		<false/>
 		<key>capture.cursorSize</key>
@@ -106,6 +108,8 @@
 		<string>clickedWindow</string>
 		<key>capture.openInEditorKey</key>
 		<string>none</string>
+		<key>capture.paletteKey</key>
+		<string>rightControl</string>
 		<key>capture.showsCursorIcon</key>
 		<true/>
 		<key>capture.showsTargetInfo</key>
@@ -142,6 +146,8 @@
 		<string></string>
 		<key>captureShortcut.mode</key>
 		<string>7:655360:X</string>
+		<key>captureShortcut.stopRecording</key>
+		<string></string>
 		<key>clipboard.historyAction</key>
 		<string>clipboard</string>
 		<key>clipboard.historyEnabled</key>
@@ -488,12 +494,10 @@
 		<false/>
 		<key>micLevel.mic.enabled</key>
 		<false/>
-		<key>micLevel.outlook.clientID</key>
-		<string>5ecefab2-987d-4dea-b992-7379ca8da2e9</string>
+		<key>micLevel.outlook.displayDays</key>
+		<integer>1</integer>
 		<key>micLevel.outlook.enabled</key>
 		<false/>
-		<key>micLevel.outlook.tenantID</key>
-		<string>58348390-6452-4be3-bb4c-eb5ac82ae476</string>
 		<key>micLevel.sensitivity</key>
 		<real>5</real>
 		<key>micLevel.size</key>
@@ -592,8 +596,6 @@
 		<string>png</string>
 		<key>pen.capture.includesCursor</key>
 		<false/>
-		<key>pen.capture.key</key>
-		<string>rightControl</string>
 		<key>pen.capture.sound</key>
 		<true/>
 		<key>pen.capture.thumbnailPosition</key>
@@ -64002,8 +64004,6 @@
 		<false/>
 		<key>spotlight.capture.target</key>
 		<string>desktop</string>
-		<key>spotlight.capturePaletteKey</key>
-		<string>rightControl</string>
 		<key>spotlight.clickAction</key>
 		<string>keepLit</string>
 		<key>spotlight.clickBehavior</key>
@@ -64058,8 +64058,6 @@
 			<string>800x600</string>
 			<string>640x480</string>
 		</array>
-		<key>windowSize.shortcut</key>
-		<string></string>
 		<key>zoom.clickAction</key>
 		<string>none</string>
 		<key>zoom.factor</key>
