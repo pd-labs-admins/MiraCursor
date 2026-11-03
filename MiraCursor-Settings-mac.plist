@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.18</string>
+	<string>0.0.19</string>
 	<key>createdAt</key>
-	<date>2026-10-28T11:16:05Z</date>
+	<date>2026-11-03T05:04:27Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -404,10 +404,10 @@
 		<real>1.5</real>
 		<key>keyMonitor.activeColor</key>
 		<string>#FF9500</string>
-		<key>keyMonitor.autoAdjust</key>
-		<true/>
 		<key>keyMonitor.duration</key>
-		<real>8</real>
+		<real>0.0</real>
+		<key>keyMonitor.enabled</key>
+		<false/>
 		<key>keyMonitor.fadeDuration</key>
 		<real>1.5</real>
 		<key>keyMonitor.height</key>
@@ -420,16 +420,16 @@
 		<real>32</real>
 		<key>keyMonitor.keyboardSize</key>
 		<string>large</string>
-		<key>keyMonitor.monitor</key>
-		<integer>1</integer>
-		<key>keyMonitor.offset</key>
-		<real>40</real>
-		<key>keyMonitor.position</key>
-		<string>bottomLeft</string>
+		<key>keyMonitor.mouseFadeDuration</key>
+		<real>0.10000000000000001</real>
+		<key>keyMonitor.mouseIdleDelay</key>
+		<real>0.0</real>
+		<key>keyMonitor.showsMouse</key>
+		<true/>
 		<key>keyMonitor.stats.backspace</key>
 		<true/>
 		<key>keyMonitor.stats.enabled</key>
-		<true/>
+		<false/>
 		<key>keyMonitor.stats.fiveMinutes</key>
 		<false/>
 		<key>keyMonitor.stats.hour</key>
@@ -441,7 +441,7 @@
 		<key>keyMonitor.stats.today</key>
 		<true/>
 		<key>keyMonitor.style</key>
-		<string>characters</string>
+		<string>keyboard</string>
 		<key>keyMonitor.width</key>
 		<real>480</real>
 		<key>light.style</key>
@@ -471,6 +471,12 @@
 		<key>micLevel.ai.todayCostThreshold</key>
 		<real>10000</real>
 		<key>micLevel.calendar.enabled</key>
+		<false/>
+		<key>micLevel.calendar.holidays.china</key>
+		<false/>
+		<key>micLevel.calendar.holidays.japan</key>
+		<true/>
+		<key>micLevel.calendar.holidays.us</key>
 		<false/>
 		<key>micLevel.calendar.range</key>
 		<string>twoWeeks</string>
@@ -505,21 +511,33 @@
 		<key>micLevel.size.ai</key>
 		<real>80</real>
 		<key>micLevel.size.calendar</key>
-		<real>80</real>
+		<real>104</real>
 		<key>micLevel.size.claude</key>
-		<real>80</real>
+		<real>100</real>
 		<key>micLevel.size.clock</key>
-		<real>80</real>
+		<real>100</real>
 		<key>micLevel.size.codex</key>
-		<real>80</real>
+		<real>100</real>
 		<key>micLevel.size.cpu</key>
-		<real>80</real>
+		<real>100</real>
+		<key>micLevel.size.keyMonitor</key>
+		<real>100</real>
 		<key>micLevel.size.memory</key>
-		<real>80</real>
+		<real>100</real>
 		<key>micLevel.size.mic</key>
-		<real>80</real>
+		<real>100</real>
+		<key>micLevel.size.outlook</key>
+		<real>96</real>
+		<key>micLevel.size.todo</key>
+		<real>96</real>
+		<key>micLevel.size.volume</key>
+		<real>100</real>
 		<key>micLevel.size.window</key>
-		<real>80</real>
+		<real>100</real>
+		<key>micLevel.todo.displayCount</key>
+		<integer>20</integer>
+		<key>micLevel.todo.enabled</key>
+		<false/>
 		<key>micLevel.volume.enabled</key>
 		<false/>
 		<key>micLevel.volume.presets</key>
@@ -582,18 +600,20 @@
 		<string>square</string>
 		<key>mouseCursor.zoomSize</key>
 		<real>160</real>
-		<key>openShortcut.imageDirectory</key>
+		<key>openShortcut.audio</key>
+		<string></string>
+		<key>openShortcut.directory</key>
+		<string></string>
+		<key>openShortcut.movie</key>
 		<string></string>
 		<key>openShortcut.settings</key>
-		<string></string>
-		<key>openShortcut.textDirectory</key>
 		<string></string>
 		<key>pen.capture.delay</key>
 		<real>0.0</real>
 		<key>pen.capture.destination</key>
 		<string>directory</string>
 		<key>pen.capture.format</key>
-		<string>png</string>
+		<string>webpLossy</string>
 		<key>pen.capture.includesCursor</key>
 		<false/>
 		<key>pen.capture.sound</key>
