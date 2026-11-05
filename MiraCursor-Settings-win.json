@@ -2,19 +2,37 @@
   "Format": "MiraCursor.settings",
   "FormatVersion": 1,
   "Platform": "Windows",
-  "AppVersion": "0.0.19",
-  "CreatedAt": "2026-11-03T14:03:25.3168773+09:00",
+  "AppVersion": "0.0.20",
+  "CreatedAt": "2026-11-06T08:31:27.3854745+09:00",
   "Settings": {
     "DisplayLanguage": "system",
     "TriggerBindings": [
       {
         "Key": "LeftCtrl, LeftShift",
-        "Mode": "Pen",
-        "Style": "Toggle"
+        "Mode": "Doodle"
+      },
+      {
+        "Key": "None",
+        "Mode": "Pen"
+      },
+      {
+        "Key": "None",
+        "Mode": "Capture"
+      },
+      {
+        "Key": "None",
+        "Mode": "Zoom"
+      },
+      {
+        "Key": "None",
+        "Mode": "Spotlight"
+      },
+      {
+        "Key": "None",
+        "Mode": "MouseCursor"
       }
     ],
     "HoldDuration": 1.5,
-    "EscapeHoldDuration": 1.5,
     "AutoUpdateMode": "Stable",
     "ShowsReleaseNotes": true,
     "SpotlightDimOpacity": 0.6,
@@ -34,7 +52,7 @@
     ],
     "WindowSizeIncludesFrame": true,
     "WindowSizeAutoReposition": true,
-    "EditorOpenShortcut": 0,
+    "EditorOpenShortcut": 327760,
     "MovieOpenShortcut": 0,
     "AudioOpenShortcut": 0,
     "SettingsShortcut": 0,
@@ -62,9 +80,9 @@
     "PenLeftLineStyle": "Solid",
     "PenRightLineStyle": "Solid",
     "PenShowsCursorIcon": true,
-    "MenuShortcut": 327757,
+    "MenuShortcut": 0,
     "CaptureModeShortcut": 327768,
-    "StopRecordingShortcut": 0,
+    "StopRecordingShortcut": 327757,
     "ClipboardShortcut": 0,
     "AlarmStartShortcut": 0,
     "AlarmPresetsShortcut": 0,
@@ -95,15 +113,13 @@
     "PenCaptureIncludesCursor": false,
     "CaptureIncludesShadow": false,
     "CaptureIncludesWidgets": true,
-    "CaptureIncludesDesktopIcons": true,
-    "CaptureIncludesWallpaper": true,
-    "CaptureBackgroundColor": "#007AFF",
+    "CaptureIncludesDesktopIcons": false,
+    "CaptureIncludesWallpaper": false,
+    "CaptureBackgroundColor": "#14AFD0",
     "PenLeftShape": "Line",
     "PenRightShape": "Line",
     "PenReselectsItems": true,
     "PenShowsSelectedTool": true,
-    "PenNewlineWithEnter": true,
-    "PenShowsNewlineHelp": true,
     "CaptureModeTarget": "ClickedWindow",
     "CaptureContinuous": false,
     "CaptureShowsTargetInfo": false,
@@ -112,7 +128,6 @@
     "ZoomShowsClickActions": true,
     "EditorConfirmsClose": false,
     "EditorClosesAfterCopy": false,
-    "EditorPreviewSwitchWithShift": true,
     "EditorNewlineWithEnter": true,
     "EditorShowsNewlineHelp": true,
     "EditorAutoExpandCanvas": true,
@@ -131,7 +146,7 @@
     "EditorTextPlacementButtons": true,
     "EditorPanelSide": "Left",
     "EditorToolInfoEnabled": true,
-    "EditorToolInfoPosition": "BottomRight",
+    "EditorToolInfoPosition": "BottomLeft",
     "EditorToolInfoSize": "Medium",
     "EditorCollapsedPanes": [],
     "ClipboardHistoryEnabled": false,
@@ -166,6 +181,8 @@
     "EditorShapeFillOpacity": 100,
     "EditorShapeFillPattern": "diagonal",
     "EditorTextDirection": "horizontal",
+    "EditorShapeGradient": "none",
+    "EditorTextGradient": "none",
     "EditorNewImageBackgroundColor": "#FFFFFF",
     "EditorNewImagePresets": [
       "1920x1200|WUXGA (16:10)",
@@ -191,7 +208,7 @@
     "PenCaptureDelay": 0,
     "PenCaptureDestination": "Directory",
     "CaptureOpenInEditorKey": "None",
-    "PenCaptureFormat": "WebPLossy",
+    "PenCaptureFormat": "Png",
     "MicLevelSizes": {
       "Claude": 100,
       "ClaudeWsl": 100,
@@ -326,14 +343,7 @@
     "KeyMonitorMouseIdleDelay": 0,
     "KeyMonitorMouseFadeDuration": 0.1,
     "KeyMonitorFadeDuration": 1.5,
-    "KeyMonitorStatsFiveMinutes": false,
-    "KeyMonitorStatsBackspace": true,
     "KeyMonitorIdleDelay": 0.5,
-    "KeyMonitorStatsEnabled": false,
-    "KeyMonitorStatsMinute": false,
-    "KeyMonitorStatsTenMinutes": false,
-    "KeyMonitorStatsHour": false,
-    "KeyMonitorStatsToday": true,
     "KeyMonitorActiveColor": "#FF9500",
     "KeyMonitorIdleColor": "#F2F2F2",
     "ZoomShowsCrosshair": true,
