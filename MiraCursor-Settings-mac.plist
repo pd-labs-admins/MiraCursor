@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.19</string>
+	<string>0.0.20</string>
 	<key>createdAt</key>
-	<date>2026-11-03T05:04:27Z</date>
+	<date>2026-11-05T23:36:49Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -16,18 +16,6 @@
 	<string>macOS</string>
 	<key>settings</key>
 	<dict>
-		<key>activationStyle</key>
-		<string>toggle</string>
-		<key>activationStyle.colorPicker</key>
-		<string>momentary</string>
-		<key>activationStyle.coordinates</key>
-		<string>momentary</string>
-		<key>activationStyle.mouseCursor</key>
-		<string>momentary</string>
-		<key>activationStyle.pen</key>
-		<string>toggle</string>
-		<key>activationStyle.spotlight</key>
-		<string>momentary</string>
 		<key>alarm.autoReposition</key>
 		<false/>
 		<key>alarm.defaultPreset</key>
@@ -67,7 +55,7 @@
 		<key>autoUpdateMode</key>
 		<string>stable</string>
 		<key>capture.backgroundColor</key>
-		<string>#007AFF</string>
+		<string>#14AFD0</string>
 		<key>capture.clickAction</key>
 		<string>capture</string>
 		<key>capture.continuous</key>
@@ -85,11 +73,11 @@
 		<key>capture.includesCursor</key>
 		<false/>
 		<key>capture.includesDesktopIcons</key>
-		<true/>
+		<false/>
 		<key>capture.includesShadow</key>
 		<false/>
 		<key>capture.includesWallpaper</key>
-		<true/>
+		<false/>
 		<key>capture.includesWidgets</key>
 		<true/>
 		<key>capture.meetingIcons.teams</key>
@@ -147,7 +135,7 @@
 		<key>captureShortcut.mode</key>
 		<string>7:655360:X</string>
 		<key>captureShortcut.stopRecording</key>
-		<string></string>
+		<string>46:655360:M</string>
 		<key>clipboard.historyAction</key>
 		<string>clipboard</string>
 		<key>clipboard.historyEnabled</key>
@@ -304,15 +292,13 @@
 		<key>editor.openButtons</key>
 		<false/>
 		<key>editor.openShortcut</key>
-		<string></string>
+		<string>35:655360:P</string>
 		<key>editor.paletteClosesOnSelection</key>
 		<true/>
 		<key>editor.paletteSteps</key>
 		<integer>7</integer>
 		<key>editor.panelSide</key>
 		<string>left</string>
-		<key>editor.previewSwitchWithShift</key>
-		<true/>
 		<key>editor.propertyStyle</key>
 		<string>sidebar</string>
 		<key>editor.saveButtons</key>
@@ -377,7 +363,7 @@
 		<key>editor.toolInfoEnabled</key>
 		<true/>
 		<key>editor.toolInfoPosition</key>
-		<string>bottomRight</string>
+		<string>bottomLeft</string>
 		<key>editor.toolInfoSize</key>
 		<string>medium</string>
 		<key>editor.toolbarColored</key>
@@ -390,8 +376,6 @@
 		<false/>
 		<key>editor.toolbarShowsToolNames</key>
 		<true/>
-		<key>escapeHoldDuration</key>
-		<real>1.5</real>
 		<key>highlight.color</key>
 		<string>#FFCC00</string>
 		<key>highlight.opacity</key>
@@ -426,20 +410,6 @@
 		<real>0.0</real>
 		<key>keyMonitor.showsMouse</key>
 		<true/>
-		<key>keyMonitor.stats.backspace</key>
-		<true/>
-		<key>keyMonitor.stats.enabled</key>
-		<false/>
-		<key>keyMonitor.stats.fiveMinutes</key>
-		<false/>
-		<key>keyMonitor.stats.hour</key>
-		<false/>
-		<key>keyMonitor.stats.minute</key>
-		<false/>
-		<key>keyMonitor.stats.tenMinutes</key>
-		<false/>
-		<key>keyMonitor.stats.today</key>
-		<true/>
 		<key>keyMonitor.style</key>
 		<string>keyboard</string>
 		<key>keyMonitor.width</key>
@@ -447,7 +417,7 @@
 		<key>light.style</key>
 		<string>highlight</string>
 		<key>menuShortcut</key>
-		<string>46:655360:M</string>
+		<string></string>
 		<key>micLevel.ai.claude.enabled</key>
 		<false/>
 		<key>micLevel.ai.codex.enabled</key>
@@ -613,7 +583,7 @@
 		<key>pen.capture.destination</key>
 		<string>directory</string>
 		<key>pen.capture.format</key>
-		<string>webpLossy</string>
+		<string>png</string>
 		<key>pen.capture.includesCursor</key>
 		<false/>
 		<key>pen.capture.sound</key>
@@ -652,8 +622,6 @@
 		<real>32</real>
 		<key>pen.leftWidth</key>
 		<real>8</real>
-		<key>pen.newlineWithEnter</key>
-		<true/>
 		<key>pen.reselectsItems</key>
 		<true/>
 		<key>pen.rightColor</key>
@@ -685,8 +653,6 @@
 		<key>pen.settingsTargetKey</key>
 		<string>rightShift</string>
 		<key>pen.showsCursorIcon</key>
-		<true/>
-		<key>pen.showsNewlineHelp</key>
 		<true/>
 		<key>pen.showsSelectedTool</key>
 		<true/>
@@ -64044,9 +64010,37 @@
 				<key>key</key>
 				<string>leftControl+leftShift</string>
 				<key>mode</key>
+				<string>doodle</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>none</string>
+				<key>mode</key>
 				<string>pen</string>
-				<key>style</key>
-				<string>toggle</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>none</string>
+				<key>mode</key>
+				<string>capture</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>none</string>
+				<key>mode</key>
+				<string>colorPicker</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>none</string>
+				<key>mode</key>
+				<string>spotlight</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>none</string>
+				<key>mode</key>
+				<string>mouseCursor</string>
 			</dict>
 		</array>
 		<key>triggerKey.colorPicker</key>
