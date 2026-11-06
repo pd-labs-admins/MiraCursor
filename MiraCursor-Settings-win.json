@@ -2,39 +2,64 @@
   "Format": "MiraCursor.settings",
   "FormatVersion": 1,
   "Platform": "Windows",
-  "AppVersion": "0.0.20",
-  "CreatedAt": "2026-11-06T08:31:27.3854745+09:00",
+  "AppVersion": "0.0.21",
+  "CreatedAt": "2026-11-06T22:56:01.1065752+09:00",
   "Settings": {
     "DisplayLanguage": "system",
     "TriggerBindings": [
       {
         "Key": "LeftCtrl, LeftShift",
-        "Mode": "Doodle"
+        "Mode": "Pen",
+        "Style": "Momentary"
       },
       {
         "Key": "None",
-        "Mode": "Pen"
+        "Mode": "Pen",
+        "Style": "LongPress"
       },
       {
         "Key": "None",
-        "Mode": "Capture"
+        "Mode": "Capture",
+        "Style": "Momentary"
       },
       {
         "Key": "None",
-        "Mode": "Zoom"
+        "Mode": "Capture",
+        "Style": "LongPress"
       },
       {
         "Key": "None",
-        "Mode": "Spotlight"
+        "Mode": "Zoom",
+        "Style": "Momentary"
       },
       {
         "Key": "None",
-        "Mode": "MouseCursor"
+        "Mode": "Zoom",
+        "Style": "LongPress"
+      },
+      {
+        "Key": "None",
+        "Mode": "Spotlight",
+        "Style": "Momentary"
+      },
+      {
+        "Key": "None",
+        "Mode": "Spotlight",
+        "Style": "LongPress"
+      },
+      {
+        "Key": "None",
+        "Mode": "MouseCursor",
+        "Style": "Momentary"
+      },
+      {
+        "Key": "None",
+        "Mode": "MouseCursor",
+        "Style": "LongPress"
       }
     ],
     "HoldDuration": 1.5,
     "AutoUpdateMode": "Stable",
-    "ShowsReleaseNotes": true,
     "SpotlightDimOpacity": 0.6,
     "SpotlightRadius": 150,
     "SpotlightRadiusChangeKey": "RightShift",
@@ -106,7 +131,8 @@
     "PenCursorSize": 48,
     "PenStraightLineKey": "LeftShift",
     "CapturePaletteKey": "RightCtrl",
-    "CaptureClickAction": "Capture",
+    "CaptureLeftAction": "Directory",
+    "CaptureRightAction": "ImageEditor",
     "PenToolPaletteKey": "RightAlt",
     "PenSettingsTargetKey": "RightShift",
     "PenCaptureSound": true,
@@ -121,7 +147,7 @@
     "PenReselectsItems": true,
     "PenShowsSelectedTool": true,
     "CaptureModeTarget": "ClickedWindow",
-    "CaptureContinuous": false,
+    "CaptureEndsAfterCapture": true,
     "CaptureShowsTargetInfo": false,
     "CaptureToolbarPosition": "Bottom",
     "CaptureToolbarSize": "Medium",
@@ -132,7 +158,6 @@
     "EditorShowsNewlineHelp": true,
     "EditorAutoExpandCanvas": true,
     "EditorShowsGrid": false,
-    "EditorPaletteClosesOnSelection": true,
     "EditorCustomShapeHistory": [],
     "EditorPaletteSteps": 7,
     "EditorToolbarColored": true,
@@ -145,9 +170,8 @@
     "EditorShapeAlignmentButtons": true,
     "EditorTextPlacementButtons": true,
     "EditorPanelSide": "Left",
-    "EditorToolInfoEnabled": true,
-    "EditorToolInfoPosition": "BottomLeft",
-    "EditorToolInfoSize": "Medium",
+    "EditorToolInfoPlacement": "None",
+    "EditorToolInfoButtons": false,
     "EditorCollapsedPanes": [],
     "ClipboardHistoryEnabled": false,
     "ClipboardViewerEnabled": false,
@@ -207,7 +231,6 @@
     "TextExcludePatterns": "",
     "PenCaptureDelay": 0,
     "PenCaptureDestination": "Directory",
-    "CaptureOpenInEditorKey": "None",
     "PenCaptureFormat": "Png",
     "MicLevelSizes": {
       "Claude": 100,
