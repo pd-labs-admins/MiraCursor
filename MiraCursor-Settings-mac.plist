@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.21</string>
+	<string>0.0.22</string>
 	<key>createdAt</key>
-	<date>2026-11-06T13:55:19Z</date>
+	<date>2026-11-11T04:00:13Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -97,7 +97,7 @@
 		<key>capture.paletteKey</key>
 		<string>rightControl</string>
 		<key>capture.rightAction</key>
-		<string>imageEditor</string>
+		<string>imageViewer</string>
 		<key>capture.showsCursorIcon</key>
 		<true/>
 		<key>capture.showsTargetInfo</key>
@@ -293,68 +293,6 @@
 		<false/>
 		<key>editor.openShortcut</key>
 		<string>35:655360:P</string>
-		<key>editor.options</key>
-		<data>
-		eyJhcnJvdyI6eyJsaW5lU3R5bGUiOiJzb2xpZCIsImNvbG9yIjoiI0ZFNEVE
-		NyIsIndpZHRoIjo2LCJvcGFjaXR5IjoxfSwicHJlc2V0U2VsZWN0aW9uIjp7
-		InNwcmF5IjowLCJoaWdobGlnaHRlciI6Mn0sInJlY3RhbmdsZUZpbGwiOiJz
-		b2xpZCIsInBlbmNpbCI6eyJsaW5lU3R5bGUiOiJzb2xpZCIsImNvbG9yIjoi
-		I0ZFNEVENyIsIndpZHRoIjo2LCJvcGFjaXR5IjoxfSwicGFsZXR0ZUNvbG9y
-		IjoiI0ZGM0IzMCIsImVsbGlwc2UiOnsib3BhY2l0eSI6MSwibGluZVN0eWxl
-		Ijoic29saWQiLCJ3aWR0aCI6NiwiY29sb3IiOiIjRkU0RUQ3In0sInJlY3Rh
-		bmdsZSI6eyJsaW5lU3R5bGUiOiJzb2xpZCIsImNvbG9yIjoiI0ZFNEVENyIs
-		IndpZHRoIjo2LCJvcGFjaXR5IjoxfSwidGV4dFNpemUiOjMyLCJwcmVzZXRT
-		ZXRzIjp7InNwcmF5IjpbeyJzaGFkb3ciOmZhbHNlLCJjb2xvciI6IiNGRjNC
-		MzAiLCJ3aWR0aCI6MzAsIm9wYWNpdHkiOjEsIm91dGxpbmVFbmFibGVkIjp0
-		cnVlLCJvdXRsaW5lV2lkdGgiOjN9LHsic2hhZG93IjpmYWxzZSwiY29sb3Ii
-		OiIjRkY5NTAwIiwid2lkdGgiOjMwLCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5h
-		YmxlZCI6dHJ1ZSwib3V0bGluZVdpZHRoIjozfSx7InNoYWRvdyI6ZmFsc2Us
-		ImNvbG9yIjoiI0ZGQ0MwMCIsIndpZHRoIjozMCwib3BhY2l0eSI6MSwib3V0
-		bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6M30seyJzaGFkb3ci
-		OmZhbHNlLCJjb2xvciI6IiMzNEM3NTkiLCJ3aWR0aCI6MzAsIm9wYWNpdHki
-		OjEsIm91dGxpbmVFbmFibGVkIjp0cnVlLCJvdXRsaW5lV2lkdGgiOjN9LHsi
-		c2hhZG93IjpmYWxzZSwiY29sb3IiOiIjMDA3QUZGIiwid2lkdGgiOjMwLCJv
-		cGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxlZCI6dHJ1ZSwib3V0bGluZVdpZHRo
-		IjozfSx7InNoYWRvdyI6ZmFsc2UsImNvbG9yIjoiI0FGNTJERSIsIndpZHRo
-		IjozMCwib3BhY2l0eSI6MSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxp
-		bmVXaWR0aCI6M30seyJzaGFkb3ciOmZhbHNlLCJjb2xvciI6IiNGRkZGRkYi
-		LCJ3aWR0aCI6MzAsIm9wYWNpdHkiOjEsIm91dGxpbmVFbmFibGVkIjp0cnVl
-		LCJvdXRsaW5lV2lkdGgiOjN9LHsic2hhZG93IjpmYWxzZSwiY29sb3IiOiIj
-		MDAwMDAwIiwid2lkdGgiOjMwLCJvcGFjaXR5IjoxLCJvdXRsaW5lRW5hYmxl
-		ZCI6dHJ1ZSwib3V0bGluZVdpZHRoIjozfV0sImhpZ2hsaWdodGVyIjpbeyJz
-		aGFkb3ciOmZhbHNlLCJjb2xvciI6IiNGRjNCMzAiLCJ3aWR0aCI6MzIsIm9w
-		YWNpdHkiOjAuNSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0
-		aCI6M30seyJzaGFkb3ciOmZhbHNlLCJjb2xvciI6IiNGRjk1MDAiLCJ3aWR0
-		aCI6MzIsIm9wYWNpdHkiOjAuNSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91
-		dGxpbmVXaWR0aCI6M30seyJzaGFkb3ciOmZhbHNlLCJjb2xvciI6IiNGRkND
-		MDAiLCJ3aWR0aCI6MzIsIm9wYWNpdHkiOjAuNSwib3V0bGluZUVuYWJsZWQi
-		OnRydWUsIm91dGxpbmVXaWR0aCI6M30seyJzaGFkb3ciOmZhbHNlLCJjb2xv
-		ciI6IiMzNEM3NTkiLCJ3aWR0aCI6MzIsIm9wYWNpdHkiOjAuNSwib3V0bGlu
-		ZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6M30seyJzaGFkb3ciOmZh
-		bHNlLCJjb2xvciI6IiMwMDdBRkYiLCJ3aWR0aCI6MzIsIm9wYWNpdHkiOjAu
-		NSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0aCI6M30seyJz
-		aGFkb3ciOmZhbHNlLCJjb2xvciI6IiNBRjUyREUiLCJ3aWR0aCI6MzIsIm9w
-		YWNpdHkiOjAuNSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91dGxpbmVXaWR0
-		aCI6M30seyJzaGFkb3ciOmZhbHNlLCJjb2xvciI6IiNGRkZGRkYiLCJ3aWR0
-		aCI6MzIsIm9wYWNpdHkiOjAuNSwib3V0bGluZUVuYWJsZWQiOnRydWUsIm91
-		dGxpbmVXaWR0aCI6M30seyJzaGFkb3ciOmZhbHNlLCJjb2xvciI6IiMwMDAw
-		MDAiLCJ3aWR0aCI6MzIsIm9wYWNpdHkiOjAuNSwib3V0bGluZUVuYWJsZWQi
-		OnRydWUsIm91dGxpbmVXaWR0aCI6M31dfSwibW9zYWljQmxvY2tTaXplIjox
-		NiwiaGlnaGxpZ2h0ZXIiOnsib3BhY2l0eSI6MC41LCJsaW5lU3R5bGUiOiJz
-		b2xpZCIsIndpZHRoIjozMiwiY29sb3IiOiIjRkZDQzAwIn0sInJlY3Rhbmds
-		ZUNvcm5lclJhZGl1cyI6MCwic3BvdGxpZ2h0RGltIjowLjYsImxpbmUiOnsi
-		bGluZVN0eWxlIjoic29saWQiLCJjb2xvciI6IiNGRTRFRDciLCJ3aWR0aCI6
-		Niwib3BhY2l0eSI6MX0sInNwb3RsaWdodFNoYXBlIjoicmVjdGFuZ2xlIiwi
-		b3V0bGluZUVuYWJsZWQiOnsiaGlnaGxpZ2h0ZXIiOnRydWUsInNwcmF5Ijp0
-		cnVlfSwiYmFja2dyb3VuZEVyYXNlVG9sZXJhbmNlIjoyMCwidGV4dEJhY2tn
-		cm91bmQiOiJub25lIiwic3ByYXkiOnsib3BhY2l0eSI6MSwibGluZVN0eWxl
-		Ijoic29saWQiLCJ3aWR0aCI6MzAsImNvbG9yIjoiI0ZGM0IzMCJ9LCJudW1i
-		ZXJTaXplIjozMiwiZWxsaXBzZUZpbGwiOiJzb2xpZCIsIm51bWJlckNvbG9y
-		IjoiI0ZGM0IzMCIsInBhcnRpYWxFcmFzZVRvbGVyYW5jZSI6MjAsIm91dGxp
-		bmVXaWR0aHMiOnsiaGlnaGxpZ2h0ZXIiOjMsInNwcmF5IjozfSwidGV4dEJv
-		bGQiOmZhbHNlLCJzaGFkb3dFbmFibGVkIjp7InNwcmF5IjpmYWxzZSwiaGln
-		aGxpZ2h0ZXIiOmZhbHNlfSwidGV4dENvbG9yIjoiI0ZFNEVENyJ9
-		</data>
 		<key>editor.paletteSteps</key>
 		<integer>7</integer>
 		<key>editor.panelSide</key>
@@ -631,6 +569,8 @@
 		<key>openShortcut.audio</key>
 		<string></string>
 		<key>openShortcut.directory</key>
+		<string></string>
+		<key>openShortcut.miraResizer</key>
 		<string></string>
 		<key>openShortcut.movie</key>
 		<string></string>
@@ -64064,7 +64004,7 @@
 		<array>
 			<dict>
 				<key>key</key>
-				<string>leftControl+leftShift</string>
+				<string>leftOption+leftShift</string>
 				<key>mode</key>
 				<string>pen</string>
 				<key>style</key>
@@ -64177,17 +64117,19 @@
 		<key>zoom.factor</key>
 		<real>2</real>
 		<key>zoom.leftClickAction</key>
-		<string>zoomIn</string>
+		<string>extractText</string>
 		<key>zoom.leftFlipsPosition</key>
 		<false/>
 		<key>zoom.leftZoomInFactor</key>
 		<real>4</real>
 		<key>zoom.leftZoomInSize</key>
 		<real>600</real>
+		<key>zoom.lensShowsCrosshair</key>
+		<true/>
 		<key>zoom.position</key>
 		<string>right</string>
 		<key>zoom.rightClickAction</key>
-		<string>copyColor</string>
+		<string>zoomIn</string>
 		<key>zoom.rightFlipsPosition</key>
 		<false/>
 		<key>zoom.rightZoomInFactor</key>
