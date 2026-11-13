@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>appVersion</key>
-	<string>0.0.22</string>
+	<string>0.0.23</string>
 	<key>createdAt</key>
-	<date>2026-11-11T04:00:13Z</date>
+	<date>2026-11-13T01:41:42Z</date>
 	<key>cursorImages</key>
 	<dict/>
 	<key>format</key>
@@ -568,6 +568,8 @@
 		<real>160</real>
 		<key>openShortcut.audio</key>
 		<string></string>
+		<key>openShortcut.clip</key>
+		<string></string>
 		<key>openShortcut.directory</key>
 		<string></string>
 		<key>openShortcut.miraResizer</key>
@@ -575,6 +577,8 @@
 		<key>openShortcut.movie</key>
 		<string></string>
 		<key>openShortcut.settings</key>
+		<string></string>
+		<key>openShortcut.toolPalette</key>
 		<string></string>
 		<key>pen.capture.delay</key>
 		<real>0.0</real>
@@ -64000,6 +64004,38 @@
 		<string>rightShift</string>
 		<key>spotlight.softness</key>
 		<real>0.34999999999999998</real>
+		<key>toolPalette.backgroundColor</key>
+		<string>#000000</string>
+		<key>toolPalette.enabled</key>
+		<false/>
+		<key>toolPalette.slots</key>
+		<array>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+		</array>
 		<key>triggerBindings</key>
 		<array>
 			<dict>
@@ -64095,6 +64131,8 @@
 		<string>leftOption+leftShift</string>
 		<key>triggerKey.spotlight</key>
 		<string>none</string>
+		<key>widget.backgroundColors</key>
+		<dict/>
 		<key>widget.shortcuts</key>
 		<dict/>
 		<key>windowSize.autoReposition</key>
